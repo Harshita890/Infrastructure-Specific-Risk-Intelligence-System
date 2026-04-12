@@ -1,80 +1,93 @@
-# Phagwara Flood Risk Dashboard
+# Infrastructure-Specific Risk Intelligence System
 
-This project is a simple Flask website made for the Phagwara flood-risk dataset.
+This is a simple Python Flask project for your CAP599 topic.
 
-## Project files
+It uses `phagwara_final.csv` as the main dataset and builds a dashboard for:
 
-- `app.py` - Flask backend
-- `templates/index.html` - main webpage
-- `static/style.css` - page design
-- `phagwara_final.csv` - Phagwara dataset
-- `requirements.txt` - Python package list
+- disaster detection
+- IVI calculation
+- operational disruption probability
+- safe / not safe infrastructure recommendation
 
-## Step 1: Open terminal in the project folder
+## Project assumption
 
-Make sure your terminal is inside:
+Your `phagwara_final.csv` file does not contain real hospital names, bridge names, or road names.
 
-```powershell
-C:\Users\LiFe\Desktop\New Project
+So for this student project:
+
+- each row is treated as one infrastructure unit
+- the app assigns unit types as `Hospital`, `Bridge`, `Road`, and `Data Center`
+
+This matches your project limitation that some infrastructure attributes need proxy assumptions.
+
+## IVI formula
+
+```text
+IVI = structural factors + hazard exposure + design age + proximity factors
 ```
 
-## Step 2: Install Flask
+## Files
 
-Run:
+- `app.py` - Python Flask app
+- `templates/index.html` - dashboard page
+- `static/style.css` - styling
+- `phagwara_final.csv` - dataset
+- `requirements.txt` - Python package list
+
+## How to run
+
+### 1. Open terminal
+
+```powershell
+cd "C:\Users\LiFe\Desktop\New Project"
+```
+
+### 2. Install Flask
 
 ```powershell
 pip install -r requirements.txt
 ```
 
-## Step 3: Start the website
-
-Run:
+### 3. Run the app
 
 ```powershell
 python app.py
 ```
 
-## Step 4: Open in browser
-
-Open this address:
+### 4. Open browser
 
 ```text
 http://127.0.0.1:5000
 ```
 
-## What this website shows
+## What the dashboard shows
 
-- Total Phagwara records
-- Average rainfall
-- Average water level
-- Average river discharge
-- Lowest and highest risk score
-- Risk distribution
-- Top 5 highest risk rows
-- Full table of all Phagwara data
+- detected hazard
+- number of safe units
+- number of caution units
+- number of not safe units
+- top vulnerable infrastructure
+- recommended safe infrastructure
+- full operational dashboard table
 
-## Easy explanation of code
+## Simple code flow
 
-### `app.py`
+1. Read `phagwara_final.csv`
+2. Convert rainfall, water level, discharge, and risk score into numbers
+3. Detect disaster type
+4. Calculate IVI
+5. Calculate disruption probability
+6. Mark each unit as safe, caution, or not safe
+7. Show results in the Flask dashboard
 
-- Reads the CSV file
-- Converts numbers from text to float
-- Calculates summary values
-- Sends data to the HTML page
+## Future improvement
 
-### `index.html`
+Later you can add:
 
-- Shows dashboard cards
-- Shows top-risk list
-- Shows data table
-
-### `style.css`
-
-- Adds colors
-- Makes cards and table look better
-- Makes the page work on mobile and desktop
-
-## Notes
-
-- Right now the project is focused only on `phagwara_final.csv`
-- You can later add maps, charts, login, prediction, or alert features
+- real OpenStreetMap data
+- Overpass API integration
+- live weather API
+- real hospital and bridge names
+- map view
+- alert notifications
+- machine learning model
