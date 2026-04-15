@@ -64,7 +64,7 @@ http://127.0.0.1:5000
 - `/phagwara-data` shows the cleaned Phagwara dataset.
 - `/predict` lets you enter values and predict disaster type and flood risk.
 
-## Notes for your project report
+## Notes for project report
 
 - The flood-risk model is trained on the flood dataset.
 - The disaster-type model is trained on historical India disaster records.
