@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block hero %}
+<section class="hero-panel">
+    <div class="hero-copy">
+        <p class="eyebrow">Phagwara Project</p>
+        <h1>Disaster and infrastructure risk monitor for Phagwara</h1>
+        <p class="hero-text">A simple project website for prediction, weather view, and local risk mapping.</p>
+        <div class="hero-actions">
+            <a class="button button-primary" href="{{ url_for('predict') }}">Predictor</a>
+            <a class="button button-secondary" href="{{ url_for('infrastructure_map') }}">Risk Map</a>
+        </div>
+    </div>
+    <div class="hero-stats">
+        <div class="stat-card glow">
+            <span>Average Infrastructure Risk</span>
+            <strong>{{ summary.avg_infrastructure_risk_score | round(2) }}/100</strong>
+        </div>
+        <div class="stat-card">
+            <span>Disaster Model Score</span>
+            <strong>{{ (metrics.disaster_model.accuracy * 100) | round(2) }}%</strong>
+        </div>
+        <div class="stat-card">
+            <span>Flood Model Score</span>
+            <strong>{{ (metrics.flood_model.accuracy * 100) | round(2) }}%</strong>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section-grid feature-grid">
+    {% for card in feature_cards %}
+    <article class="feature-card">
+        <p class="feature-index">0{{ loop.index }}</p>
+        <h2>{{ card.title }}</h2>
+        <p>{{ card.text }}</p>
+        <a href="{{ url_for(card.route) }}">Open</a>
+    </article>
+    {% endfor %}
+</section>
+
+<section class="section-grid two-up">
+    <article class="panel">
+        <div class="panel-head">
+            <p class="eyebrow">Home</p>
+            <h3>Phagwara data</h3>
+        </div>
+        <div class="key-grid">
+            <div><span>City</span><strong>{{ profile.city }}, {{ profile.state }}</strong></div>
+            <div><span>Rainfall</span><strong>{{ profile.rainfall_mm }} mm</strong></div>
+            <div><span>Water Level</span><strong>{{ profile.water_level_m }} m</strong></div>
+            <div><span>Peak Risk</span><strong>{{ summary.peak_infrastructure_risk_score | round(2) }}/100</strong></div>
+        </div>
+    </article>
+    <article class="panel">
+        <div class="panel-head">
+            <p class="eyebrow">History</p>
+            <h3>Punjab records</h3>
+        </div>
+        <div class="list-rows">
+            {% for row in top_events %}
+            <div class="list-row">
+                <span>{{ row.disaster_type }}</span>
+                <strong>{{ row.count }}</strong>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+</section>
+
+<section class="section-grid two-up">
+    <article class="panel">
+        <div class="panel-head">
+            <p class="eyebrow">Risk Points</p>
+            <h3>Important locations</h3>
+        </div>
+        <div class="list-rows">
+            {% for point in infrastructure_points %}
+            <div class="risk-chip-row">
+                <div>
+                    <strong>{{ point.asset_name }}</strong>
+                    <p>{{ point.asset_type }}</p>
+                </div>
+                <span class="risk-pill risk-{{ point.infrastructure_risk_label | lower }}">{{ point.infrastructure_risk_score | round(1) }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+    <article class="panel contrast-panel">
+        <p class="eyebrow">Pages</p>
+        <h3>Project sections</h3>
+        <ul class="clean-list">
+            <li>Disaster predictor</li>
+            <li>Weather page</li>
+            <li>Infrastructure risk score</li>
+            <li>OpenStreetMap view</li>
+        </ul>
+    </article>
+</section>
+{% endblock %}

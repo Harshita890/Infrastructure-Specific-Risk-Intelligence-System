@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block hero %}
+<section class="hero-panel compact-hero">
+    <div class="hero-copy">
+        <p class="eyebrow">About</p>
+        <h1>About this project</h1>
+        <p class="hero-text">This site uses your datasets to build a small Phagwara-focused disaster project.</p>
+    </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section-grid two-up">
+    <article class="panel">
+        <h2>How it was built</h2>
+        <ul class="clean-list">
+            <li>Clean the raw datasets</li>
+            <li>Build a Phagwara profile from nearby data</li>
+            <li>Train flood and disaster models</li>
+            <li>Calculate infrastructure risk</li>
+            <li>Show the output in Flask</li>
+        </ul>
+    </article>
+    <article class="panel">
+        <h2>Model scores</h2>
+        <div class="key-grid">
+            <div><span>Flood Model</span><strong>{{ (metrics.flood_model.accuracy * 100) | round(2) }}%</strong></div>
+            <div><span>Disaster Model</span><strong>{{ (metrics.disaster_model.accuracy * 100) | round(2) }}%</strong></div>
+            <div><span>Nearest Samples</span><strong>{{ summary.nearest_flood_samples }}</strong></div>
+            <div><span>Average Risk</span><strong>{{ summary.avg_infrastructure_risk_score | round(2) }}/100</strong></div>
+        </div>
+    </article>
+</section>
+
+<section class="panel">
+    <h2>Note</h2>
+    <p>Phagwara is not directly available in the raw files, so the site uses nearby data and Punjab records to create a usable project dataset.</p>
+</section>
+{% endblock %}

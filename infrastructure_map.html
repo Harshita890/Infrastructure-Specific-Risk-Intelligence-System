@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block hero %}
+<section class="hero-panel compact-hero">
+    <div class="hero-copy">
+        <p class="eyebrow">Risk Map</p>
+        <h1>Phagwara infrastructure map</h1>
+        <p class="hero-text">Local points shown on OpenStreetMap with risk scores.</p>
+    </div>
+    <div class="hero-stats">
+        <div class="stat-card glow">
+            <span>Average Risk</span>
+            <strong>{{ average_score }}/100</strong>
+        </div>
+        <div class="stat-card">
+            <span>Highest Risk</span>
+            <strong>{{ highest_score }}/100</strong>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section-grid two-up">
+    <article class="panel map-panel">
+        <div id="risk-map"></div>
+    </article>
+    <article class="panel">
+        <h2>Location table</h2>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Asset</th>
+                        <th>Type</th>
+                        <th>Risk</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for point in points %}
+                    <tr>
+                        <td>{{ point.asset_name }}</td>
+                        <td>{{ point.asset_type }}</td>
+                        <td>{{ point.infrastructure_risk_score }}</td>
+                        <td>{{ point.priority_action }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </article>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+const points = {{ points | tojson }};
+const map = L.map('risk-map').setView([{{ profile.latitude }}, {{ profile.longitude }}], 12);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; OpenStreetMap contributors'
+}).addTo(map);
+
+function markerColor(label) {
+    if (label === 'High') return '#f2c94c';
+    if (label === 'Medium') return '#98c24d';
+    return '#2f5d2f';
+}
+
+points.forEach((point) => {
+    const marker = L.circleMarker([point.latitude, point.longitude], {
+        radius: 10,
+        color: '#111111',
+        weight: 2,
+        fillColor: markerColor(point.infrastructure_risk_label),
+        fillOpacity: 0.92
+    }).addTo(map);
+
+    marker.bindPopup(`
+        <strong>${point.asset_name}</strong><br>
+        Type: ${point.asset_type}<br>
+        Risk: ${point.infrastructure_risk_score}/100 (${point.infrastructure_risk_label})<br>
+        Action: ${point.priority_action}
+    `);
+});
+</script>
+{% endblock %}
