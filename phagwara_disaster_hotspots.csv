@@ -1,0 +1,7 @@
+zone_name,recent_incidents,dominant_hazard,average_magnitude,average_damage,latitude,longitude,flood_probability,infrastructure_risk_score,alert_score,alert_level,response_priority
+Peri-Urban Farms,18,Earthquake,13.55,2344.11,31.24,75.75,0.48,38.85,100.0,Critical,Immediate field coordination
+Canal Edge,12,Flood,14.62,2316.5,31.24,75.79,0.83,47.37,99.06,Critical,Immediate field coordination
+Railway Colony,14,Heatwave,15.61,2036.79,31.23,75.77,0.48,46.21,95.92,Critical,Immediate field coordination
+Industrial Belt,11,Storm,8.17,2644.27,31.21,75.78,0.59,49.18,88.8,Critical,Immediate field coordination
+City Centre,9,Heatwave,17.67,2019.11,31.22,75.77,0.61,51.35,82.49,Critical,Immediate field coordination
+College District,11,Fire,7.85,1988.55,31.23,75.76,0.48,42.02,81.61,Critical,Immediate field coordination

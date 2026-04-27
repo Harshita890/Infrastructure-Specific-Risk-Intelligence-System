@@ -1,0 +1,8 @@
+day,condition,temperature_deg_c,rainfall_mm,humidity_pct,water_level_m,infrastructure_risk_score,risk_label
+Day 1,Stable Morning,28.45,86.59,68.53,4.22,50.43,Medium
+Day 2,Humid Build-Up,31.25,96.59,71.03,4.42,56.93,Medium
+Day 3,Heat Stress,33.95,74.59,65.53,3.92,42.03,Medium
+Day 4,Storm Watch,30.35,112.59,75.03,4.72,67.13,Medium
+Day 5,Light Rain,28.95,100.59,72.03,4.52,59.73,Medium
+Day 6,Flood Watch,28.35,122.59,77.53,4.92,73.63,Critical
+Day 7,Recovery Window,29.75,88.59,69.03,4.12,50.33,Medium
