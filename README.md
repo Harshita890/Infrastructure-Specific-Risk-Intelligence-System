@@ -72,7 +72,7 @@ http://127.0.0.1:5000
 - `/about`
   Project explanation and model summary.
 
-
+##other
 - The dataset is intentionally synthetic and created for demonstration.
 - The website is focused on **Phagwara** and includes local zones, hotspots, and infrastructure assets.
 - The map and prediction flow are designed to explain disaster preparedness visually.
