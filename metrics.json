@@ -1,0 +1,115 @@
+{
+  "flood_model": {
+    "name": "Flood Risk Model",
+    "target": "Flood Occurred",
+    "accuracy": 0.9048,
+    "features": [
+      "latitude",
+      "longitude",
+      "rainfall_mm",
+      "temperature_deg_c",
+      "humidity_pct",
+      "river_discharge_m3_s",
+      "water_level_m",
+      "elevation_m",
+      "land_cover",
+      "soil_type",
+      "population_density",
+      "infrastructure",
+      "historical_floods"
+    ],
+    "classification_report": {
+      "0": {
+        "precision": 0.8734177215189873,
+        "recall": 0.92,
+        "f1-score": 0.8961038961038961,
+        "support": 75.0
+      },
+      "1": {
+        "precision": 0.9325842696629213,
+        "recall": 0.8924731182795699,
+        "f1-score": 0.9120879120879121,
+        "support": 93.0
+      },
+      "accuracy": 0.9047619047619048,
+      "macro avg": {
+        "precision": 0.9030009955909544,
+        "recall": 0.906236559139785,
+        "f1-score": 0.904095904095904,
+        "support": 168.0
+      },
+      "weighted avg": {
+        "precision": 0.9061706320986651,
+        "recall": 0.9047619047619048,
+        "f1-score": 0.9049521906664764,
+        "support": 168.0
+      }
+    }
+  },
+  "disaster_model": {
+    "name": "Disaster Type Model",
+    "target": "Disaster Type",
+    "accuracy": 0.8929,
+    "features": [
+      "start_year",
+      "start_month",
+      "magnitude",
+      "latitude",
+      "longitude",
+      "total_deaths",
+      "total_affected",
+      "total_damage_usd_000"
+    ],
+    "classification_report": {
+      "Earthquake": {
+        "precision": 0.9230769230769231,
+        "recall": 1.0,
+        "f1-score": 0.96,
+        "support": 12.0
+      },
+      "Fire": {
+        "precision": 0.8421052631578947,
+        "recall": 0.9411764705882353,
+        "f1-score": 0.8888888888888888,
+        "support": 17.0
+      },
+      "Flood": {
+        "precision": 0.9375,
+        "recall": 0.8823529411764706,
+        "f1-score": 0.9090909090909091,
+        "support": 17.0
+      },
+      "Heatwave": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 14.0
+      },
+      "Industrial Accident": {
+        "precision": 0.8333333333333334,
+        "recall": 0.5,
+        "f1-score": 0.625,
+        "support": 10.0
+      },
+      "Storm": {
+        "precision": 0.8125,
+        "recall": 0.9285714285714286,
+        "f1-score": 0.8666666666666667,
+        "support": 14.0
+      },
+      "accuracy": 0.8928571428571429,
+      "macro avg": {
+        "precision": 0.8914192532613585,
+        "recall": 0.8753501400560224,
+        "f1-score": 0.8749410774410776,
+        "support": 84.0
+      },
+      "weighted avg": {
+        "precision": 0.8933160224278647,
+        "recall": 0.8928571428571429,
+        "f1-score": 0.8865355940355939,
+        "support": 84.0
+      }
+    }
+  }
+}
