@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block hero %}
+<section class="hero-panel compact-hero">
+    <div class="hero-copy">
+        <p class="eyebrow">About</p>
+        <h1>About the Phagwara Resilience Atlas</h1>
+        <p class="hero-text">This version of the project was rebuilt around a synthetic dummy dataset because the original source data was not a good fit. The new dataset is generated specifically for Phagwara and designed to support map-based explanation, prediction, and classroom demonstration.</p>
+    </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section-grid two-up">
+    <article class="panel">
+        <h2>How it is built</h2>
+        <ul class="clean-list">
+            <li>Create synthetic flood records around Phagwara zones</li>
+            <li>Generate disaster history for earthquake, flood, heatwave, fire, storm, and industrial accident</li>
+            <li>Build infrastructure assets and hotspot layers for the map</li>
+            <li>Train flood-risk and disaster-type models</li>
+            <li>Serve everything through a Flask-based interactive website</li>
+        </ul>
+    </article>
+    <article class="panel">
+        <h2>Project metrics</h2>
+        <div class="key-grid">
+            <div><span>Flood Model</span><strong>{{ (metrics.flood_model.accuracy * 100) | round(2) }}%</strong></div>
+            <div><span>Disaster Model</span><strong>{{ (metrics.disaster_model.accuracy * 100) | round(2) }}%</strong></div>
+            <div><span>Records</span><strong>{{ summary.synthetic_disaster_records }}</strong></div>
+            <div><span>Hotspots</span><strong>{{ summary.hotspot_count }}</strong></div>
+        </div>
+    </article>
+</section>
+
+<section class="section-grid two-up">
+    <article class="panel">
+        <h2>Supported disaster classes</h2>
+        <div class="list-rows">
+            {% for row in top_disasters %}
+            <div class="list-row">
+                <span>{{ row.disaster_type }}</span>
+                <strong>{{ row.count }}</strong>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+    <article class="panel contrast-panel">
+        <h2>Important note</h2>
+        <p>The numbers shown in this website come from a generated demonstration dataset, not an official disaster authority feed. That makes it suitable for your project presentation, UI demo, and model workflow explanation.</p>
+    </article>
+</section>
+
+<section class="section-grid two-up">
+    <article class="panel">
+        <h2>Emergency Numbers</h2>
+        <div class="contact-row">
+            {% for contact in emergency_contacts %}
+            <a class="contact-card hover-block" href="{{ contact.href }}">
+                <span>{{ contact.role }}</span>
+                <strong>{{ contact.name }}</strong>
+                <p>{{ contact.phone }}</p>
+            </a>
+            {% endfor %}
+        </div>
+    </article>
+    <article class="panel">
+        <h2>Emergency Social and Support Links</h2>
+        <div class="list-rows">
+            <a class="list-row hover-block" href="https://x.com" target="_blank" rel="noreferrer">
+                <span>Emergency Updates on X</span>
+                <strong>Open</strong>
+            </a>
+            <a class="list-row hover-block" href="https://www.facebook.com" target="_blank" rel="noreferrer">
+                <span>Public Safety Facebook</span>
+                <strong>Open</strong>
+            </a>
+            <a class="list-row hover-block" href="https://www.instagram.com" target="_blank" rel="noreferrer">
+                <span>Awareness on Instagram</span>
+                <strong>Open</strong>
+            </a>
+            <a class="list-row hover-block" href="https://www.youtube.com" target="_blank" rel="noreferrer">
+                <span>Emergency Guidance Videos</span>
+                <strong>Open</strong>
+            </a>
+        </div>
+    </article>
+</section>
+{% endblock %}
