@@ -1,2 +1,0 @@
-city,state,latitude,longitude,rainfall_mm,temperature_deg_c,humidity_pct,river_discharge_m3_s,water_level_m,elevation_m,land_cover,soil_type,population_density,infrastructure,historical_floods,nearest_sample_count,mean_distance_km,flood_occurred_ratio,avg_infrastructure_risk_score,peak_infrastructure_risk_score
-Phagwara,Punjab,31.224,75.7708,78.59,29.45,66.53,2536.14,4.12,246.46,Agricultural,Loam,5622.59,1,0,720,1.74,0.581,45.83,73.27
