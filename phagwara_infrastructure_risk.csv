@@ -1,9 +1,0 @@
-asset_name,asset_type,latitude,longitude,distance_to_phagwara_km,infrastructure_risk_score,infrastructure_risk_label,priority_action,rainfall_mm,water_level_m,population_density
-Industrial Gate 2,Industry,31.2108,75.783,1.87,99.0,Critical,Immediate response planning,71.17,3.73,6165.99
-Canal Bridge,Water Crossing,31.2362,75.7915,2.39,99.0,Critical,Immediate response planning,77.03,4.06,3852.84
-Market Road Junction,Commercial,31.2231,75.7747,0.38,90.67,Critical,Immediate response planning,228.52,6.91,7862.57
-Civil Hospital,Healthcare,31.2258,75.7681,0.33,66.91,Medium,Preparedness and inspection,71.07,4.2,7443.0
-Railway Station Access,Transport,31.2266,75.7668,0.48,61.15,Medium,Preparedness and inspection,195.12,6.54,6872.42
-School Cluster,Education,31.2328,75.7619,1.29,50.99,Medium,Preparedness and inspection,95.97,4.64,6599.16
-Warehouse Ring,Logistics,31.214,75.7808,1.46,40.38,Medium,Preparedness and inspection,33.85,3.74,5170.39
-Phagwara Bus Stand,Transport,31.2247,75.771,0.08,35.38,Low,Routine monitoring,67.97,3.51,7861.73
