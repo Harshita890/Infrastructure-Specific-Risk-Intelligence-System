@@ -136,7 +136,6 @@ def compute_infrastructure_risk(form_values: dict[str, object]) -> dict[str, flo
     elevation = 1 - (min(max(safe_float(form_values["elevation_m"], 0.0), 0.0), 9000.0) / 9000.0)
     temperature = (min(max(safe_float(form_values["temperature_deg_c"], 12.0), 12.0), 48.0) - 12.0) / 36.0
     building_age = min(max(safe_float(form_values.get("building_age_years"), 15.0), 0.0), 120.0) / 120.0
-<<<<<<< HEAD
     floors = min(max(safe_float(form_values.get("floors"), 3.0), 1.0), 14.0) / 14.0
     river_proximity = 1 - (min(max(safe_float(form_values.get("distance_to_river_km"), 2.0), 0.0), 5.0) / 5.0)
     soil_capacity_gap = 1 - (min(max(safe_float(form_values.get("soil_bearing_capacity_kpa"), 180.0), 80.0), 260.0) - 80.0) / 180.0
@@ -169,19 +168,6 @@ def compute_infrastructure_risk(form_values: dict[str, object]) -> dict[str, flo
         + drainage_factor * 0.04
         + material_factor * 0.04
         + foundation_factor * 0.04
-=======
-
-    score = (
-        rainfall * 0.18
-        + water_level * 0.22
-        + discharge * 0.14
-        + population * 0.12
-        + flood_history * 0.12
-        + infrastructure * 0.08
-        + elevation * 0.04
-        + temperature * 0.06
-        + building_age * 0.04
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
     ) * 100
     score = round(score, 2)
     return {"score": score, "label": risk_label(score / 100.0)}
@@ -494,7 +480,6 @@ def build_location_context(name: str, latitude: float, longitude: float) -> dict
     context["year_built"] = int(round(safe_float(asset.get("year_built"), datetime.now().year - context["building_age_years"])))
     context["floors"] = int(round(safe_float(asset.get("floors"), 3)))
     context["building_height_m"] = round(safe_float(asset.get("building_height_m"), 14.0), 2)
-<<<<<<< HEAD
     context["distance_to_river_km"] = round(safe_float(asset.get("distance_to_river_km"), 2.0), 2)
     context["construction_material"] = str(asset.get("construction_material", "RCC"))
     context["foundation_type"] = str(asset.get("foundation_type", "Isolated Footing"))
@@ -502,8 +487,6 @@ def build_location_context(name: str, latitude: float, longitude: float) -> dict
     context["soil_bearing_capacity_kpa"] = round(safe_float(asset.get("soil_bearing_capacity_kpa"), 180.0), 2)
     context["maintenance_score"] = round(safe_float(asset.get("maintenance_score"), 70.0), 2)
     context["occupancy_load"] = int(round(safe_float(asset.get("occupancy_load"), 700.0)))
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
     context["nearest_asset_distance_km"] = round(safe_float(asset.get("asset_distance_km"), 0.0), 2)
     context["infrastructure_risk"] = compute_infrastructure_risk(context)
     context.update(nearest_hotspot(latitude, longitude))
@@ -528,7 +511,6 @@ def scenario_guidance(disaster_type: str, flood_risk: str) -> str:
     return "Use this result as a demo scenario and compare it with the hotspot map for the nearest zone."
 
 
-<<<<<<< HEAD
 def building_condition(
     disaster_type: str,
     infra_score: float,
@@ -536,9 +518,6 @@ def building_condition(
     weather_condition: str,
     building_prediction: str,
 ) -> dict[str, object]:
-=======
-def building_condition(disaster_type: str, infra_score: float, flood_risk: str, weather_condition: str) -> dict[str, object]:
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
     issues: list[str] = []
     if disaster_type == "Earthquake":
         issues.extend(["foundation vibration", "wall cracking risk", "stairwell evacuation pressure"])
@@ -553,28 +532,18 @@ def building_condition(disaster_type: str, infra_score: float, flood_risk: str, 
     elif disaster_type == "Industrial Accident":
         issues.extend(["toxic exposure concern", "service shutdown pressure", "restricted access"])
 
-<<<<<<< HEAD
     if building_prediction == "Unsafe" or infra_score >= 80:
         severity = "SOS"
         issues.append("immediate emergency response required")
     elif building_prediction == "Major Repair" or infra_score >= 70:
-=======
-    if infra_score >= 80:
-        severity = "SOS"
-        issues.append("immediate emergency response required")
-    elif infra_score >= 70:
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
         severity = "Critical"
         issues.append("rapid inspection required")
     elif flood_risk == "Critical":
         severity = "Critical"
         issues.append("high flood-sensitive building stress")
-<<<<<<< HEAD
     elif building_prediction == "Minor Repair":
         severity = "Warning"
         issues.append("minor repair and maintenance required")
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
     elif weather_condition == "Heat Stress":
         severity = "Warning"
         issues.append("heat safety measures should be activated")
@@ -583,10 +552,7 @@ def building_condition(disaster_type: str, infra_score: float, flood_risk: str, 
 
     return {
         "severity": severity,
-<<<<<<< HEAD
         "model_prediction": building_prediction,
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
         "summary": ", ".join(dict.fromkeys(issues[:4])),
     }
 
@@ -657,7 +623,6 @@ def prediction_defaults() -> dict[str, object]:
         "infrastructure": phagwara_profile["infrastructure"],
         "historical_floods": phagwara_profile["historical_floods"],
         "building_age_years": 18,
-<<<<<<< HEAD
         "floors": 4,
         "building_height_m": 18.0,
         "distance_to_river_km": 2.0,
@@ -667,8 +632,6 @@ def prediction_defaults() -> dict[str, object]:
         "soil_bearing_capacity_kpa": 180.0,
         "maintenance_score": 72.0,
         "occupancy_load": 800,
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
         "start_year": 2026,
         "start_month": 7,
         "magnitude": 4.8,
@@ -719,7 +682,6 @@ def build_prediction_result(form_values: dict[str, object], defaults: dict[str, 
             }
         ]
     )
-<<<<<<< HEAD
     building_input = pd.DataFrame(
         [
             {
@@ -748,20 +710,12 @@ def build_prediction_result(form_values: dict[str, object], defaults: dict[str, 
     flood_probability = float(flood_model.predict_proba(flood_input)[0][1])
     disaster_prediction = str(disaster_model.predict(disaster_input)[0])
     building_prediction = str(building_model.predict(building_input)[0])
-=======
-
-    flood_probability = float(flood_model.predict_proba(flood_input)[0][1])
-    disaster_prediction = str(disaster_model.predict(disaster_input)[0])
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
     infra_result = compute_infrastructure_risk(form_values)
     result = {
         "flood_probability": round(flood_probability * 100, 2),
         "flood_risk": risk_label(flood_probability),
         "disaster_prediction": disaster_prediction,
-<<<<<<< HEAD
         "building_prediction": building_prediction,
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
         "guidance": scenario_guidance(disaster_prediction, risk_label(flood_probability)),
     }
     result["building_condition"] = building_condition(
@@ -769,10 +723,7 @@ def build_prediction_result(form_values: dict[str, object], defaults: dict[str, 
         infra_result["score"],
         result["flood_risk"],
         describe_weather(form_values),
-<<<<<<< HEAD
         building_prediction,
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
     )
     return infra_result, result
 
@@ -789,7 +740,6 @@ def build_report_text(form_values: dict[str, object], infra_result: dict[str, fl
         f"Water Level (m): {safe_float(form_values['water_level_m'], 0.0):.2f}",
         f"Population Density: {safe_float(form_values['population_density'], 0.0):.2f}",
         f"Building Age (years): {int(round(safe_float(form_values['building_age_years'], 0.0)))}",
-<<<<<<< HEAD
         f"Floors: {int(round(safe_float(form_values['floors'], 0.0)))}",
         f"Height (m): {safe_float(form_values['building_height_m'], 0.0):.2f}",
         f"Distance to River (km): {safe_float(form_values['distance_to_river_km'], 0.0):.2f}",
@@ -799,18 +749,13 @@ def build_report_text(form_values: dict[str, object], infra_result: dict[str, fl
         f"Soil Bearing Capacity (kPa): {safe_float(form_values['soil_bearing_capacity_kpa'], 0.0):.2f}",
         f"Maintenance Score: {safe_float(form_values['maintenance_score'], 0.0):.2f}",
         f"Occupancy Load: {int(round(safe_float(form_values['occupancy_load'], 0.0)))}",
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
         "",
         f"Infrastructure Score: {infra_result['score']}/100",
         f"Infrastructure Label: {infra_result['label']}",
         f"Predicted Disaster: {result['disaster_prediction']}",
         f"Flood Probability: {result['flood_probability']}%",
         f"Flood Risk: {result['flood_risk']}",
-<<<<<<< HEAD
         f"Building Model Prediction: {result['building_prediction']}",
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
         f"Building Status: {result['building_condition']['severity']}",
         f"Building Stress Summary: {result['building_condition']['summary']}",
         "",
@@ -851,10 +796,7 @@ punjab_damage = pd.read_csv(DATA_DIR / "punjab_damage_history.csv")
 punjab_events = pd.read_csv(DATA_DIR / "punjab_disaster_history.csv")
 phagwara_samples = pd.read_csv(DATA_DIR / "phagwara_nearby_flood_samples.csv")
 infrastructure_points = pd.read_csv(DATA_DIR / "phagwara_infrastructure_risk.csv")
-<<<<<<< HEAD
 building_assessments = pd.read_csv(DATA_DIR / "building_safety_assessment.csv")
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
 weather_forecast = pd.read_csv(DATA_DIR / "phagwara_weather_forecast.csv")
 clean_flood_risk = pd.read_csv(DATA_DIR / "clean_flood_risk_india.csv")
 disaster_hotspots = pd.read_csv(DATA_DIR / "phagwara_disaster_hotspots.csv")
@@ -865,10 +807,7 @@ global_emergency_contacts = emergency_contacts()
 
 flood_model = joblib.load(MODELS_DIR / "flood_risk_model.joblib")
 disaster_model = joblib.load(MODELS_DIR / "disaster_type_model.joblib")
-<<<<<<< HEAD
 building_model = joblib.load(MODELS_DIR / "building_safety_model.joblib")
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
 
 
 @app.route("/")
@@ -981,12 +920,9 @@ def predict():
         infra_result=infra_result,
         land_cover_options=sorted(phagwara_samples["land_cover"].dropna().unique().tolist()),
         soil_type_options=sorted(phagwara_samples["soil_type"].dropna().unique().tolist()),
-<<<<<<< HEAD
         material_options=sorted(building_assessments["construction_material"].dropna().unique().tolist()),
         foundation_options=sorted(building_assessments["foundation_type"].dropna().unique().tolist()),
         drainage_options=sorted(building_assessments["drainage_quality"].dropna().unique().tolist()),
-=======
->>>>>>> 338fd2f998e2cdf2f4c5d4e51f41f05c75b26e30
         emergency_alerts=global_emergency_alerts[:3],
         emergency_contacts=global_emergency_contacts,
     )
