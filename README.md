@@ -1,4 +1,5 @@
-# Phagwara Resilience Atlas
+# Infrastructure-Specific-Risk-Intelligence-System
+
 
 This project is a Flask-based interactive disaster website for **Phagwara, Punjab**. It was rebuilt around a **synthetic dummy dataset** so the project can still demonstrate mapping, prediction, and risk analysis even when the original dataset is not suitable.
 
