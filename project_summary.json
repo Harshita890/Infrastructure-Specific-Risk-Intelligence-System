@@ -1,0 +1,18 @@
+{
+  "city": "Phagwara",
+  "state": "Punjab",
+  "dataset_mode": "Synthetic dummy dataset for demonstration",
+  "synthetic_flood_records": 720,
+  "synthetic_disaster_records": 420,
+  "disaster_types_covered": 6,
+  "nearest_flood_samples": 720,
+  "average_nearest_distance_km": 1.74,
+  "estimated_flood_occurrence_ratio": 0.581,
+  "punjab_historic_disaster_events": 420,
+  "top_punjab_disaster_type": "Flood",
+  "punjab_total_lives_lost_2020_2025": 1448.0,
+  "punjab_total_houses_damaged_2020_2025": 627352.0,
+  "avg_infrastructure_risk_score": 45.83,
+  "peak_infrastructure_risk_score": 73.27,
+  "hotspot_count": 6
+}

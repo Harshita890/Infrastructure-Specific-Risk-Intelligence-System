@@ -1,0 +1,259 @@
+{% extends "base.html" %}
+
+{% block body_class %}scene-clear{% endblock %}
+
+{% block hero %}
+<section class="hero-panel compact-hero">
+    <div class="hero-copy">
+        <p class="eyebrow">Predictor</p>
+        <h1>Infrastructure Predictor Check</h1>
+        <p class="hero-text">Find the likely disaster and the building condition.</p>
+    </div>
+    <div class="weather-stage" data-scene="clear">
+        <span class="weather-card-3d front"></span>
+        <span class="weather-card-3d mid"></span>
+        <span class="weather-card-3d back"></span>
+    </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="section-grid predictor-layout">
+    <article class="panel">
+        <h2>Scenario Input</h2>
+        <div class="search-row">
+            <input id="predict-location-input" type="text" placeholder="Search Phagwara zone or asset">
+            <button id="predict-search-btn" type="button">Load</button>
+        </div>
+        <p class="muted-copy" id="predict-location-status">Search a Phagwara zone or building to pull local synthetic values.</p>
+        <div class="slider-grid top-gap">
+            <label>Rainfall slider
+                <input class="live-slider" type="range" min="0" max="400" step="1" value="{{ form_values.rainfall_mm }}" data-target="rainfall_mm">
+            </label>
+            <label>Temperature slider
+                <input class="live-slider" type="range" min="12" max="48" step="0.5" value="{{ form_values.temperature_deg_c }}" data-target="temperature_deg_c">
+            </label>
+            <label>Water level slider
+                <input class="live-slider" type="range" min="0" max="10" step="0.1" value="{{ form_values.water_level_m }}" data-target="water_level_m">
+            </label>
+            <label>Population slider
+                <input class="live-slider" type="range" min="0" max="10000" step="50" value="{{ form_values.population_density }}" data-target="population_density">
+            </label>
+        </div>
+        <form method="post" class="form-grid" id="predict-form">
+            <label>Latitude
+                <input type="number" step="any" name="latitude" value="{{ form_values.latitude }}">
+            </label>
+            <label>Longitude
+                <input type="number" step="any" name="longitude" value="{{ form_values.longitude }}">
+            </label>
+            <label>Rainfall (mm)
+                <input type="number" step="any" name="rainfall_mm" value="{{ form_values.rainfall_mm }}">
+            </label>
+            <label>Temperature (C)
+                <input type="number" step="any" name="temperature_deg_c" value="{{ form_values.temperature_deg_c }}">
+            </label>
+            <label>Humidity (%)
+                <input type="number" step="any" name="humidity_pct" value="{{ form_values.humidity_pct }}">
+            </label>
+            <label>River Discharge (m3/s)
+                <input type="number" step="any" name="river_discharge_m3_s" value="{{ form_values.river_discharge_m3_s }}">
+            </label>
+            <label>Water Level (m)
+                <input type="number" step="any" name="water_level_m" value="{{ form_values.water_level_m }}">
+            </label>
+            <label>Elevation (m)
+                <input type="number" step="any" name="elevation_m" value="{{ form_values.elevation_m }}">
+            </label>
+            <label>Land Cover
+                <select name="land_cover">
+                    {% for option in land_cover_options %}
+                    <option value="{{ option }}" {% if option == form_values.land_cover %}selected{% endif %}>{{ option }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label>Soil Type
+                <select name="soil_type">
+                    {% for option in soil_type_options %}
+                    <option value="{{ option }}" {% if option == form_values.soil_type %}selected{% endif %}>{{ option }}</option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label>Population Density
+                <input type="number" step="any" name="population_density" value="{{ form_values.population_density }}">
+            </label>
+            <label>Infrastructure Exposure
+                <input type="number" step="1" name="infrastructure" value="{{ form_values.infrastructure }}">
+            </label>
+            <label>Historical Flood Marker
+                <input type="number" step="1" name="historical_floods" value="{{ form_values.historical_floods }}">
+            </label>
+            <label>Building Age (years)
+                <input type="number" step="1" min="0" name="building_age_years" value="{{ form_values.building_age_years }}">
+            </label>
+            <label>Scenario Year
+                <input type="number" step="1" name="start_year" value="{{ form_values.start_year }}">
+            </label>
+            <label>Scenario Month
+                <input type="number" step="1" min="1" max="12" name="start_month" value="{{ form_values.start_month }}">
+            </label>
+            <label>Magnitude / Severity
+                <input type="number" step="any" name="magnitude" value="{{ form_values.magnitude }}">
+            </label>
+            <label>Total Deaths
+                <input type="number" step="any" name="total_deaths" value="{{ form_values.total_deaths }}">
+            </label>
+            <label>Total Affected
+                <input type="number" step="any" name="total_affected" value="{{ form_values.total_affected }}">
+            </label>
+            <label>Total Damage (000 US$)
+                <input type="number" step="any" name="total_damage_usd_000" value="{{ form_values.total_damage_usd_000 }}">
+            </label>
+            <button type="submit">Predict Scenario</button>
+        </form>
+    </article>
+
+    <article class="result-stack">
+        <div class="panel signal-panel">
+            <p class="eyebrow">Infrastructure</p>
+            <h2 id="live-risk-score">{{ infra_result.score }}/100</h2>
+            <p class="risk-pill risk-{{ infra_result.label | lower }}" id="live-risk-pill">{{ infra_result.label }} Risk</p>
+            <p>This live score reacts to rainfall, temperature, water level, population density, and dummy building age.</p>
+            <a class="button top-gap" id="download-report-link" href="{{ url_for('download_report') }}">Download Report</a>
+        </div>
+
+        <div class="panel">
+            <p class="eyebrow">Prediction Result</p>
+            {% if result %}
+            <div class="result-block">
+                <div>
+                    <span>Disaster Type</span>
+                    <strong>{{ result.disaster_prediction }}</strong>
+                </div>
+                <div>
+                    <span>Flood Probability</span>
+                    <strong>{{ result.flood_probability }}%</strong>
+                </div>
+                <div>
+                    <span>Flood Risk</span>
+                    <strong>{{ result.flood_risk }}</strong>
+                </div>
+                <div>
+                    <span>Building Status</span>
+                    <strong>{{ result.building_condition.severity }}</strong>
+                </div>
+            </div>
+            <div class="top-gap key-grid">
+                <div>
+                    <span>Building Is Suffering From</span>
+                    <strong>{{ result.building_condition.summary }}</strong>
+                </div>
+            </div>
+            <p class="muted-copy top-gap">{{ result.guidance }}</p>
+            {% if result.building_condition.severity == 'SOS' %}
+            <p class="sos-inline">SOS warning: this building crossed the emergency threshold and should notify response teams.</p>
+            <div class="contact-row top-gap">
+                {% for contact in emergency_contacts %}
+                <a class="contact-card hover-block" href="{{ contact.href }}">
+                    <span>{{ contact.role }}</span>
+                    <strong>{{ contact.name }}</strong>
+                    <p>{{ contact.phone }}</p>
+                </a>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% else %}
+            <p class="muted-copy">Submit the form to simulate a disaster scenario for a building in Phagwara.</p>
+            {% endif %}
+        </div>
+
+        <div class="panel">
+            <p class="eyebrow">Model Scores</p>
+            <div class="key-grid">
+                <div><span>Flood Model</span><strong>{{ (metrics.flood_model.accuracy * 100) | round(2) }}%</strong></div>
+                <div><span>Disaster Model</span><strong>{{ (metrics.disaster_model.accuracy * 100) | round(2) }}%</strong></div>
+            </div>
+        </div>
+    </article>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function setField(name, value) {
+    const element = document.querySelector(`[name="${name}"]`);
+    if (!element || value === undefined || value === null) return;
+    element.value = value;
+}
+
+function syncSlider(name, value) {
+    const slider = document.querySelector(`.live-slider[data-target="${name}"]`);
+    if (slider) slider.value = value;
+}
+
+async function refreshLiveRisk() {
+    const form = document.getElementById('predict-form');
+    const params = new URLSearchParams(new FormData(form));
+    const response = await fetch(`/api/live-risk?${params.toString()}`);
+    const data = await response.json();
+    const scoreNode = document.getElementById('live-risk-score');
+    const pillNode = document.getElementById('live-risk-pill');
+    scoreNode.textContent = `${data.score}/100`;
+    pillNode.textContent = `${data.label} Risk`;
+    pillNode.className = `risk-pill risk-${data.label.toLowerCase()}`;
+    document.getElementById('download-report-link').href = `/download-report?${params.toString()}`;
+}
+
+document.querySelectorAll('.live-slider').forEach((slider) => {
+    slider.addEventListener('input', () => {
+        setField(slider.dataset.target, slider.value);
+        refreshLiveRisk();
+    });
+});
+
+['rainfall_mm', 'temperature_deg_c', 'water_level_m', 'population_density'].forEach((name) => {
+    const input = document.querySelector(`[name="${name}"]`);
+    if (!input) return;
+    input.addEventListener('input', () => {
+        syncSlider(name, input.value);
+        refreshLiveRisk();
+    });
+});
+
+document.querySelector('[name="building_age_years"]').addEventListener('input', refreshLiveRisk);
+
+document.getElementById('predict-search-btn').addEventListener('click', async () => {
+    const query = document.getElementById('predict-location-input').value.trim();
+    if (!query) return;
+    const response = await fetch(`/api/location-context?q=${encodeURIComponent(query)}`);
+    const data = await response.json();
+    if (data.error) {
+        document.getElementById('predict-location-status').textContent = data.error;
+        return;
+    }
+    setField('latitude', data.latitude);
+    setField('longitude', data.longitude);
+    setField('rainfall_mm', data.rainfall_mm);
+    setField('temperature_deg_c', data.temperature_deg_c);
+    setField('humidity_pct', data.humidity_pct);
+    setField('river_discharge_m3_s', data.river_discharge_m3_s);
+    setField('water_level_m', data.water_level_m);
+    setField('elevation_m', data.elevation_m);
+    setField('land_cover', data.land_cover);
+    setField('soil_type', data.soil_type);
+    setField('population_density', data.population_density);
+    setField('infrastructure', data.infrastructure);
+    setField('historical_floods', data.historical_floods);
+    setField('building_age_years', data.building_age_years);
+    syncSlider('rainfall_mm', data.rainfall_mm);
+    syncSlider('temperature_deg_c', data.temperature_deg_c);
+    syncSlider('water_level_m', data.water_level_m);
+    syncSlider('population_density', data.population_density);
+    document.getElementById('predict-location-status').textContent =
+        `${data.name} loaded. Dominant nearby hazard: ${data.dominant_hazard}.`;
+    document.getElementById('predict-form').requestSubmit();
+});
+
+refreshLiveRisk();
+</script>
+{% endblock %}
