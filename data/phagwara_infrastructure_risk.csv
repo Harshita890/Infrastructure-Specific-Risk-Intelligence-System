@@ -1,0 +1,18 @@
+asset_name,asset_type,latitude,longitude,distance_to_phagwara_km,infrastructure_risk_score,infrastructure_risk_label,priority_action,rainfall_mm,water_level_m,population_density,temperature_deg_c,building_age_years,year_built,floors,building_height_m,distance_to_river_km,construction_material,foundation_type,drainage_quality,soil_bearing_capacity_kpa,maintenance_score,occupancy_load,campus_area
+Canal Bridge,Water Crossing,31.2362,75.7915,2.39,99.0,Critical,Immediate response planning,77.03,4.06,3852.84,25.2,31,1995,1,8.0,0.08,RCC,Pile Foundation,Poor,135.0,54.0,380,Canal Edge
+Industrial Gate 2,Industry,31.2108,75.783,1.87,99.0,Critical,Immediate response planning,71.17,3.73,6165.99,34.95,21,2005,4,19.0,1.2,Steel,Raft Foundation,Poor,150.0,58.0,920,Industrial Belt
+Market Road Junction,Commercial,31.2231,75.7747,0.38,95.95,Critical,Immediate response planning,228.52,6.91,7862.57,24.96,16,2010,3,13.0,1.5,Brick Masonry,Strip Footing,Moderate,165.0,66.0,1400,City Centre
+Civil Hospital,Healthcare,31.2258,75.7681,0.33,79.51,Critical,Immediate response planning,71.07,4.2,7443.0,29.24,24,2002,5,23.0,2.1,RCC,Raft Foundation,Good,195.0,78.0,1100,Phagwara Core
+LPU University Hospital,Healthcare,31.2569,75.703,7.41,70.22,Critical,Immediate response planning,167.83,5.18,6186.87,33.26,16,2010,9,39.0,3.5,RCC,Raft Foundation,Good,216.0,86.0,1300,LPU Health Block
+LPU Boys Hostel BH-1,Residential,31.2584,75.7014,7.63,68.39,Medium,Preparedness and inspection,90.2,4.3,6097.35,34.02,17,2009,9,38.0,3.7,RCC,Raft Foundation,Moderate,200.0,74.0,4200,LPU Hostel Zone
+Railway Station Access,Transport,31.2266,75.7668,0.48,67.76,Medium,Preparedness and inspection,195.12,6.54,6872.42,30.0,17,2009,2,10.0,2.0,Steel,Pile Foundation,Moderate,175.0,69.0,850,Phagwara Core
+LPU Sports Arena,Recreation,31.2526,75.7028,7.2,66.76,Medium,Preparedness and inspection,188.12,6.38,5201.86,34.63,16,2010,9,37.0,3.6,Steel,Raft Foundation,Good,212.0,80.0,2800,LPU Sports Belt
+LPU Main Auditorium,Education,31.2558,75.7042,7.25,57.56,Medium,Preparedness and inspection,203.46,5.67,4980.76,33.39,19,2007,9,39.0,3.4,RCC,Raft Foundation,Good,215.0,83.0,2400,LPU Central Spine
+School Cluster,Education,31.2328,75.7619,1.29,57.27,Medium,Preparedness and inspection,95.97,4.64,6599.16,28.49,14,2012,4,18.0,2.7,RCC,Isolated Footing,Good,205.0,81.0,760,College District
+LPU Block 32,Academic,31.2548,75.7062,7.03,53.43,Medium,Preparedness and inspection,0.0,1.64,5968.77,17.39,20,2006,9,42.0,3.2,RCC,Raft Foundation,Good,218.0,82.0,1800,LPU Academic Core
+LPU School of Civil Engineering,Academic,31.2532,75.7056,7.0,47.42,Medium,Preparedness and inspection,0.0,1.6,5505.68,28.94,18,2008,9,40.0,3.3,RCC,Raft Foundation,Good,220.0,84.0,1600,LPU Academic Core
+LPU Girls Hostel GH-1,Residential,31.2575,75.7094,6.92,46.25,Medium,Preparedness and inspection,42.92,2.98,6424.93,15.68,17,2009,9,38.0,2.9,RCC,Raft Foundation,Moderate,198.0,75.0,3900,LPU Hostel Zone
+Phagwara Bus Stand,Transport,31.2247,75.771,0.08,44.75,Medium,Preparedness and inspection,67.97,3.51,7861.73,29.12,19,2007,3,14.0,1.8,RCC,Isolated Footing,Moderate,180.0,72.0,640,Phagwara Core
+Warehouse Ring,Logistics,31.214,75.7808,1.46,42.69,Medium,Preparedness and inspection,33.85,3.74,5170.39,12.87,12,2014,2,11.0,1.4,Steel,Raft Foundation,Poor,155.0,61.0,520,Industrial Belt
+LPU Uni Mall,Commercial,31.2565,75.7081,6.97,40.34,Medium,Preparedness and inspection,35.28,2.9,5733.28,21.33,18,2008,9,40.0,3.1,RCC,Raft Foundation,Good,210.0,79.0,3100,LPU Student Hub
+LPU Block 34,Academic,31.2541,75.7076,6.88,35.01,Low,Routine monitoring,9.37,2.39,5867.0,16.55,21,2005,9,42.0,3.0,RCC,Raft Foundation,Moderate,205.0,76.0,1700,LPU Academic Core

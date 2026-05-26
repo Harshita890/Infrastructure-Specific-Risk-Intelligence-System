@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block body_class %}{% if heatwave_alert %}scene-heat{% elif emergency_alerts %}scene-storm{% else %}scene-clear{% endif %}{% endblock %}
+
+{% block hero %}
+<section class="hero-panel minimal-hero">
+    <div class="hero-copy">
+        <p class="eyebrow">Building Safety</p>
+        <h1>Infrastructure Risk Predictor</h1>
+        <p class="hero-text">Minimal dashboard for building alerts, prediction, and map tracking.</p>
+        <div class="hero-actions">
+            <a class="button button-primary hover-block" href="{{ url_for('predict') }}">Predict</a>
+            <a class="button button-secondary hover-block" href="{{ url_for('infrastructure_map') }}">Map</a>
+        </div>
+    </div>
+    <div class="city-stage">
+        <span class="pulse-ring ring-one"></span>
+        <span class="pulse-ring ring-two"></span>
+        <span class="tower t1"></span>
+        <span class="tower t2"></span>
+        <span class="tower t3"></span>
+    </div>
+</section>
+{% endblock %}
+
+{% block content %}
+<section class="quick-strip">
+    <article class="quick-card hover-block">
+        <span>Green</span>
+        <strong>Low</strong>
+    </article>
+    <article class="quick-card hover-block">
+        <span>Yellow</span>
+        <strong>Warning</strong>
+    </article>
+    <article class="quick-card hover-block">
+        <span>Black</span>
+        <strong>Critical</strong>
+    </article>
+    {% if emergency_alerts %}
+    <article class="quick-card hover-block danger-card">
+        <span>SOS</span>
+        <strong>{{ emergency_alerts | length }} Active</strong>
+    </article>
+    {% endif %}
+</section>
+
+{% if emergency_alerts %}
+<section class="panel alert-panel">
+    <div class="panel-head">
+        <p class="eyebrow">Top Alert</p>
+        <h2>{{ emergency_alerts[0].asset_name }}</h2>
+    </div>
+    <p>{{ emergency_alerts[0].message }}</p>
+    <div class="contact-row">
+        {% for contact in emergency_contacts[:2] %}
+        <a class="contact-card hover-block" href="{{ contact.href }}">
+            <span>{{ contact.role }}</span>
+            <strong>{{ contact.name }}</strong>
+            <p>{{ contact.phone }}</p>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+{% endif %}
+
+<section class="section-grid feature-grid">
+    {% for card in feature_cards %}
+    <article class="feature-card hover-block action-card">
+        <p class="feature-index">0{{ loop.index }}</p>
+        <h2>{{ card.title }}</h2>
+        <p>{{ card.text }}</p>
+        <a href="{{ url_for(card.route) }}">Open</a>
+    </article>
+    {% endfor %}
+</section>
+{% endblock %}

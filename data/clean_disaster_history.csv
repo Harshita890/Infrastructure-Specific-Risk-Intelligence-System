@@ -1,0 +1,421 @@
+disaster_type,disaster_subtype,location,zone_name,start_year,start_month,magnitude,latitude,longitude,total_deaths,total_affected,total_damage_usd_000,phagwara_relevance
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2012,1,3.42,31.259402,75.703952,12,719,2066,High
+Industrial Accident,Chemical Leak,"City Centre, Phagwara, Punjab",City Centre,2012,1,3.5,31.227505,75.761568,7,1252,2810,High
+Earthquake,Regional Shock,"City Centre, Phagwara, Punjab",City Centre,2012,2,5.3,31.228769,75.765078,16,3167,3829,High
+Earthquake,Shallow Tremor,"College District, Phagwara, Punjab",College District,2012,2,5.72,31.227438,75.758177,11,3404,3356,High
+Industrial Accident,Factory Blast,"LPU Campus, Phagwara, Punjab",LPU Campus,2012,3,3.58,31.247032,75.701121,5,1196,2243,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2012,3,4.74,31.231876,75.790266,9,2505,2174,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2012,3,4.69,31.241248,75.793092,3,2459,2063,High
+Heatwave,Humidity Surge,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2012,5,42.93,31.243089,75.744042,5,6546,695,High
+Flood,Canal Overflow,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2012,5,5.03,31.250221,75.744726,10,4921,3815,High
+Fire,Market Fire,"Canal Edge, Phagwara, Punjab",Canal Edge,2012,5,3.01,31.233675,75.794405,3,946,1790,High
+Heatwave,Extreme Heat,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2012,5,43.1,31.214677,75.788882,3,7182,847,High
+Fire,Crop Fire,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2012,5,2.98,31.242623,75.74099,3,283,1404,High
+Flood,Canal Overflow,"Railway Colony, Phagwara, Punjab",Railway Colony,2012,6,5.22,31.233067,75.77956,6,5013,3722,High
+Heatwave,Humidity Surge,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2012,6,43.64,31.212822,75.786156,1,7496,1032,High
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2012,6,3.3,31.248011,75.708121,10,525,2253,High
+Storm,Windstorm,"College District, Phagwara, Punjab",College District,2012,7,4.21,31.232899,75.761151,2,1781,2219,High
+Industrial Accident,Chemical Leak,"Railway Colony, Phagwara, Punjab",Railway Colony,2012,8,3.82,31.230854,75.763225,9,977,2126,High
+Storm,Windstorm,"College District, Phagwara, Punjab",College District,2012,8,3.65,31.233376,75.756911,8,2551,1639,High
+Fire,Market Fire,"City Centre, Phagwara, Punjab",City Centre,2012,9,3.03,31.220531,75.769082,0,916,1529,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2012,10,5.83,31.230447,75.768824,13,4673,2095,High
+Earthquake,Shallow Tremor,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2012,10,5.54,31.249691,75.753357,11,4478,2633,High
+Fire,Residential Fire,"College District, Phagwara, Punjab",College District,2012,11,3.14,31.236297,75.761742,6,939,1601,High
+Flood,Urban Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2012,11,4.94,31.237124,75.743343,10,7310,3272,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2012,11,3.87,31.231259,75.772509,5,1790,2432,High
+Flood,Urban Flood,"City Centre, Phagwara, Punjab",City Centre,2012,11,4.81,31.222449,75.764373,12,4423,2863,High
+Fire,Crop Fire,"Canal Edge, Phagwara, Punjab",Canal Edge,2012,12,3.28,31.240968,75.787506,5,1167,1981,High
+Flood,Urban Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2012,12,4.96,31.236625,75.744807,9,3889,2022,High
+Earthquake,Regional Shock,"Railway Colony, Phagwara, Punjab",Railway Colony,2012,12,5.36,31.217454,75.767953,19,2812,4433,High
+Flood,Flash Flood,"College District, Phagwara, Punjab",College District,2012,12,4.6,31.230452,75.765788,8,5582,1129,High
+Storm,Windstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2012,12,4.45,31.234183,75.790168,7,2718,2528,High
+Storm,Thunderstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2013,1,4.88,31.223655,75.771873,4,2455,2161,High
+Earthquake,Regional Shock,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2013,2,5.81,31.216409,75.778707,9,2751,3851,High
+Storm,Windstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2013,2,5.1,31.248647,75.750956,10,3491,1921,High
+Storm,Windstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2013,3,4.5,31.203544,75.787935,8,2324,1433,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2013,3,5.57,31.2447,75.798221,12,2933,2911,High
+Flood,Urban Flood,"LPU Campus, Phagwara, Punjab",LPU Campus,2013,3,4.7,31.248377,75.706988,8,5683,2113,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2013,4,5.11,31.237203,75.793982,12,2013,3968,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2013,6,45.52,31.257351,75.701709,9,5562,682,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2013,6,4.14,31.238414,75.774453,6,3869,2481,High
+Industrial Accident,Factory Blast,"LPU Campus, Phagwara, Punjab",LPU Campus,2013,6,3.4,31.257715,75.698124,8,1480,2291,High
+Storm,Windstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2013,6,4.36,31.257762,75.709651,6,2786,2208,High
+Heatwave,Humidity Surge,"City Centre, Phagwara, Punjab",City Centre,2013,7,44.76,31.223589,75.773561,6,6818,1015,High
+Industrial Accident,Chemical Leak,"Railway Colony, Phagwara, Punjab",Railway Colony,2013,8,2.83,31.220099,75.76374,7,367,3060,High
+Earthquake,Regional Shock,"College District, Phagwara, Punjab",College District,2013,8,6.32,31.233634,75.763853,6,2440,4518,High
+Industrial Accident,Chemical Leak,"Railway Colony, Phagwara, Punjab",Railway Colony,2013,8,3.57,31.234197,75.76095,9,1318,2278,High
+Fire,Residential Fire,"City Centre, Phagwara, Punjab",City Centre,2013,9,2.85,31.219855,75.774106,6,946,2360,High
+Storm,Windstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2013,9,4.68,31.211842,75.790322,10,3080,2260,High
+Flood,Canal Overflow,"College District, Phagwara, Punjab",College District,2013,9,6.09,31.234179,75.768584,10,4251,2080,High
+Heatwave,Extreme Heat,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2013,10,44.27,31.207526,75.791939,5,6845,746,High
+Storm,Thunderstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2013,10,4.58,31.219165,75.788504,14,2873,2116,High
+Storm,Windstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2013,10,3.9,31.242225,75.753791,6,3211,2355,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2013,10,6.16,31.228716,75.771005,19,2886,3704,High
+Earthquake,Regional Shock,"College District, Phagwara, Punjab",College District,2013,10,5.81,31.243818,75.757131,14,3065,4303,High
+Industrial Accident,Chemical Leak,"Canal Edge, Phagwara, Punjab",Canal Edge,2013,11,4.02,31.240428,75.79893,7,982,2223,High
+Industrial Accident,Chemical Leak,"College District, Phagwara, Punjab",College District,2013,11,3.86,31.235433,75.760346,3,589,2716,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2013,12,3.62,31.256248,75.754598,3,729,2630,High
+Industrial Accident,Chemical Leak,"City Centre, Phagwara, Punjab",City Centre,2013,12,3.59,31.233848,75.774196,14,773,2338,High
+Earthquake,Shallow Tremor,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2013,12,5.3,31.240054,75.745256,11,1790,2836,High
+Fire,Market Fire,"City Centre, Phagwara, Punjab",City Centre,2014,1,2.84,31.221665,75.775533,4,644,1758,High
+Fire,Crop Fire,"City Centre, Phagwara, Punjab",City Centre,2014,1,2.9,31.217639,75.767802,8,1331,2064,High
+Storm,Thunderstorm,"City Centre, Phagwara, Punjab",City Centre,2014,1,4.15,31.225964,75.771131,5,2515,2471,High
+Fire,Residential Fire,"College District, Phagwara, Punjab",College District,2014,3,2.82,31.232421,75.77162,3,1136,922,High
+Storm,Thunderstorm,"City Centre, Phagwara, Punjab",City Centre,2014,3,4.32,31.218463,75.777488,2,3169,1834,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2014,4,4.74,31.221175,75.77343,7,2715,2363,High
+Flood,Urban Flood,"LPU Campus, Phagwara, Punjab",LPU Campus,2014,4,4.34,31.264522,75.710364,17,5269,2075,High
+Heatwave,Extreme Heat,"Canal Edge, Phagwara, Punjab",Canal Edge,2014,5,43.44,31.239425,75.793082,3,5975,780,High
+Fire,Crop Fire,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2014,5,3.24,31.211397,75.782348,7,1974,1929,High
+Flood,Canal Overflow,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2014,6,5.51,31.212704,75.790669,1,4581,3002,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2014,6,3.33,31.233028,75.744939,4,1224,2351,High
+Flood,Flash Flood,"Canal Edge, Phagwara, Punjab",Canal Edge,2014,6,5.56,31.249244,75.787641,13,6379,3237,High
+Flood,Canal Overflow,"City Centre, Phagwara, Punjab",City Centre,2014,7,5.25,31.217899,75.773089,10,4532,3845,High
+Industrial Accident,Factory Blast,"City Centre, Phagwara, Punjab",City Centre,2014,7,3.72,31.221816,75.778657,1,891,2058,High
+Flood,Flash Flood,"LPU Campus, Phagwara, Punjab",LPU Campus,2014,8,5.22,31.261876,75.716382,11,5874,2281,High
+Fire,Market Fire,"College District, Phagwara, Punjab",College District,2014,8,3.45,31.222912,75.758057,12,921,1148,High
+Storm,Windstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2014,8,4.34,31.215585,75.772093,11,2156,2522,High
+Industrial Accident,Factory Blast,"Canal Edge, Phagwara, Punjab",Canal Edge,2014,9,3.24,31.235211,75.7964,8,1314,1842,High
+Storm,Thunderstorm,"College District, Phagwara, Punjab",College District,2014,9,4.3,31.230358,75.766646,4,1854,2172,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2014,9,4.32,31.218133,75.766091,9,2829,1462,High
+Industrial Accident,Factory Blast,"Canal Edge, Phagwara, Punjab",Canal Edge,2014,9,3.58,31.240409,75.794664,5,1746,2263,High
+Industrial Accident,Chemical Leak,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2014,10,4.31,31.20526,75.787935,13,2722,3873,High
+Earthquake,Shallow Tremor,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2014,10,5.33,31.208395,75.789876,17,3614,2952,High
+Storm,Thunderstorm,"City Centre, Phagwara, Punjab",City Centre,2014,10,4.6,31.22588,75.775349,8,2790,1730,High
+Fire,Residential Fire,"City Centre, Phagwara, Punjab",City Centre,2014,10,2.97,31.226773,75.772388,4,781,1940,High
+Fire,Market Fire,"LPU Campus, Phagwara, Punjab",LPU Campus,2014,11,3.36,31.258372,75.711434,6,1188,1953,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2014,11,4.53,31.221573,75.760942,7,2315,2487,High
+Industrial Accident,Factory Blast,"College District, Phagwara, Punjab",College District,2014,12,3.88,31.232816,75.765173,7,1030,2303,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2014,12,4.08,31.238891,75.792624,8,3286,2992,High
+Flood,Urban Flood,"College District, Phagwara, Punjab",College District,2014,12,4.43,31.235688,75.764524,15,4648,3707,High
+Earthquake,Shallow Tremor,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2015,1,5.74,31.245394,75.754403,13,3895,4031,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2015,1,44.83,31.257072,75.703446,7,4532,812,High
+Flood,Urban Flood,"Canal Edge, Phagwara, Punjab",Canal Edge,2015,2,5.17,31.240603,75.787282,14,5051,3073,High
+Fire,Residential Fire,"Canal Edge, Phagwara, Punjab",Canal Edge,2015,2,2.64,31.231304,75.793934,3,1115,1576,High
+Earthquake,Regional Shock,"LPU Campus, Phagwara, Punjab",LPU Campus,2015,2,5.73,31.258524,75.707432,10,2863,2461,High
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2015,3,3.22,31.257885,75.713106,15,1207,1286,High
+Fire,Market Fire,"City Centre, Phagwara, Punjab",City Centre,2015,4,2.85,31.223427,75.770216,7,1598,1588,High
+Heatwave,Humidity Surge,"City Centre, Phagwara, Punjab",City Centre,2015,4,43.72,31.215147,75.780695,8,5180,679,High
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2015,5,2.98,31.254204,75.706134,4,1403,2133,High
+Heatwave,Extreme Heat,"Railway Colony, Phagwara, Punjab",Railway Colony,2015,5,45.24,31.226757,75.773334,6,5638,486,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2015,6,4.92,31.237055,75.769466,12,2466,2604,High
+Flood,Canal Overflow,"Canal Edge, Phagwara, Punjab",Canal Edge,2015,6,4.45,31.232629,75.794167,17,6680,3158,High
+Flood,Flash Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2015,7,4.18,31.245503,75.743414,5,4223,3781,High
+Flood,Urban Flood,"Canal Edge, Phagwara, Punjab",Canal Edge,2015,8,4.67,31.236993,75.786875,12,6997,3963,High
+Earthquake,Regional Shock,"Railway Colony, Phagwara, Punjab",Railway Colony,2015,8,5.76,31.238443,75.766049,15,2597,3571,High
+Fire,Market Fire,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2015,8,2.53,31.212253,75.781673,9,851,1967,High
+Storm,Thunderstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2015,8,4.11,31.219352,75.769745,7,2455,2088,High
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2015,9,3.67,31.261816,75.700939,2,1849,2421,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2015,9,4.45,31.224913,75.769881,10,4871,2174,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2015,10,4.22,31.225796,75.772319,10,2165,2554,High
+Flood,Canal Overflow,"Railway Colony, Phagwara, Punjab",Railway Colony,2015,10,4.69,31.224759,75.764824,10,2951,2895,High
+Earthquake,Regional Shock,"City Centre, Phagwara, Punjab",City Centre,2015,10,5.84,31.225669,75.769964,15,1669,3271,High
+Earthquake,Shallow Tremor,"LPU Campus, Phagwara, Punjab",LPU Campus,2015,12,5.69,31.256326,75.702649,16,4492,4173,High
+Flood,Flash Flood,"City Centre, Phagwara, Punjab",City Centre,2015,12,4.37,31.22891,75.780846,7,5715,3209,High
+Industrial Accident,Chemical Leak,"City Centre, Phagwara, Punjab",City Centre,2015,12,3.63,31.227154,75.780724,7,1275,3256,High
+Industrial Accident,Chemical Leak,"College District, Phagwara, Punjab",College District,2016,1,4.4,31.242346,75.763766,0,720,2141,High
+Heatwave,Humidity Surge,"College District, Phagwara, Punjab",College District,2016,1,45.59,31.234914,75.755194,10,6804,1153,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2016,2,6.35,31.216711,75.773863,14,3357,5168,High
+Earthquake,Regional Shock,"College District, Phagwara, Punjab",College District,2016,2,5.72,31.235779,75.770096,20,2454,2830,High
+Storm,Thunderstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2016,2,4.98,31.241247,75.750086,11,1952,2668,High
+Industrial Accident,Factory Blast,"Canal Edge, Phagwara, Punjab",Canal Edge,2016,2,3.84,31.232493,75.789336,6,622,2886,High
+Earthquake,Regional Shock,"LPU Campus, Phagwara, Punjab",LPU Campus,2016,3,5.4,31.262139,75.698342,20,2614,3224,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2016,4,48.91,31.261268,75.705916,5,6230,749,High
+Industrial Accident,Chemical Leak,"College District, Phagwara, Punjab",College District,2016,4,3.37,31.239262,75.76034,12,798,1937,High
+Heatwave,Humidity Surge,"Railway Colony, Phagwara, Punjab",Railway Colony,2016,4,44.4,31.230515,75.763833,7,6110,1165,High
+Earthquake,Shallow Tremor,"Canal Edge, Phagwara, Punjab",Canal Edge,2016,4,5.72,31.236243,75.796498,18,2370,3646,High
+Storm,Windstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2016,4,4.23,31.25338,75.702745,5,3088,2666,High
+Fire,Crop Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2016,5,3.38,31.222605,75.772393,0,1198,1945,High
+Industrial Accident,Factory Blast,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2016,5,4.03,31.216443,75.784976,14,2331,3207,High
+Heatwave,Extreme Heat,"City Centre, Phagwara, Punjab",City Centre,2016,5,46.0,31.216943,75.780282,7,7080,861,High
+Flood,Flash Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2016,6,4.3,31.225915,75.747103,16,6011,3138,High
+Flood,Flash Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2016,6,5.0,31.24068,75.746305,11,5519,2816,High
+Flood,Canal Overflow,"College District, Phagwara, Punjab",College District,2016,6,5.29,31.2344,75.768116,9,3362,2576,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2016,7,4.34,31.22351,75.769,11,3020,2202,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2016,7,4.41,31.217842,75.763142,18,7006,2798,High
+Flood,Flash Flood,"Canal Edge, Phagwara, Punjab",Canal Edge,2016,7,5.44,31.234812,75.791513,15,4782,3419,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2016,7,44.92,31.255096,75.707753,4,5698,1164,High
+Flood,Urban Flood,"City Centre, Phagwara, Punjab",City Centre,2016,7,5.18,31.226021,75.771148,8,5292,3948,High
+Storm,Windstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2016,8,4.42,31.255319,75.704506,6,2437,2780,High
+Heatwave,Extreme Heat,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2016,8,45.45,31.245179,75.745657,3,4758,1187,High
+Storm,Thunderstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2016,9,4.57,31.223479,75.762001,12,3086,2482,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2016,9,3.5,31.245401,75.74563,6,1348,2273,High
+Fire,Crop Fire,"College District, Phagwara, Punjab",College District,2016,10,2.58,31.226324,75.758873,4,1349,1640,High
+Fire,Residential Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2016,10,2.18,31.221197,75.771396,2,821,1787,High
+Storm,Windstorm,"College District, Phagwara, Punjab",College District,2016,10,4.02,31.230836,75.761254,8,2841,1893,High
+Flood,Flash Flood,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2016,10,4.95,31.217179,75.771022,8,4700,3600,High
+Storm,Thunderstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2016,11,4.1,31.25119,75.750276,2,2893,2537,High
+Industrial Accident,Chemical Leak,"College District, Phagwara, Punjab",College District,2016,11,3.4,31.232539,75.75541,7,534,2625,High
+Flood,Canal Overflow,"Railway Colony, Phagwara, Punjab",Railway Colony,2016,11,5.27,31.236691,75.763944,12,5312,2669,High
+Storm,Thunderstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2016,11,4.96,31.2125,75.780469,9,2884,2729,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2016,11,5.42,31.229721,75.76674,17,2872,3846,High
+Industrial Accident,Factory Blast,"Railway Colony, Phagwara, Punjab",Railway Colony,2016,12,4.16,31.228362,75.77279,4,1022,1590,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2017,1,2.93,31.240523,75.745095,0,1070,2186,High
+Flood,Urban Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2017,1,4.53,31.235441,75.746294,10,5782,2863,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2017,1,5.63,31.246779,75.787788,4,1532,3170,High
+Storm,Thunderstorm,"City Centre, Phagwara, Punjab",City Centre,2017,1,4.02,31.222537,75.762904,6,3448,2578,High
+Storm,Windstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2017,1,4.22,31.259717,75.707854,8,3550,1421,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2017,2,42.77,31.263062,75.708179,8,6226,896,High
+Earthquake,Shallow Tremor,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2017,2,5.53,31.239612,75.737721,16,982,3459,High
+Earthquake,Regional Shock,"College District, Phagwara, Punjab",College District,2017,2,5.48,31.243913,75.769778,9,3314,3351,High
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2017,5,3.9,31.252311,75.71199,8,1533,1704,High
+Heatwave,Humidity Surge,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2017,5,43.67,31.209035,75.776533,10,3630,713,High
+Flood,Flash Flood,"City Centre, Phagwara, Punjab",City Centre,2017,6,5.06,31.224544,75.774179,13,6011,2650,High
+Flood,Flash Flood,"Canal Edge, Phagwara, Punjab",Canal Edge,2017,6,4.82,31.236792,75.791003,18,3275,4288,High
+Earthquake,Shallow Tremor,"Railway Colony, Phagwara, Punjab",Railway Colony,2017,6,5.68,31.223333,75.766633,18,3076,3228,High
+Earthquake,Regional Shock,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2017,7,5.64,31.248316,75.755526,11,1140,4012,High
+Storm,Windstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2017,7,5.05,31.25879,75.71026,7,2251,2719,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2017,7,6.1,31.217075,75.768721,23,3407,4290,High
+Industrial Accident,Factory Blast,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2017,8,3.86,31.208004,75.777913,20,2139,2777,High
+Flood,Flash Flood,"Canal Edge, Phagwara, Punjab",Canal Edge,2017,9,4.7,31.233597,75.795933,11,6673,3334,High
+Industrial Accident,Factory Blast,"LPU Campus, Phagwara, Punjab",LPU Campus,2017,9,3.22,31.251782,75.711816,4,739,3736,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2017,9,5.59,31.226615,75.76352,14,4496,2072,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2017,9,5.01,31.220219,75.766631,17,5189,2301,High
+Industrial Accident,Factory Blast,"City Centre, Phagwara, Punjab",City Centre,2017,9,2.98,31.227224,75.76997,0,923,2678,High
+Earthquake,Regional Shock,"City Centre, Phagwara, Punjab",City Centre,2017,10,5.45,31.228179,75.765692,17,2452,2953,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2017,10,4.17,31.224199,75.766093,3,5794,2350,High
+Fire,Crop Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2017,10,1.64,31.233705,75.76595,7,892,1580,High
+Fire,Market Fire,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2017,11,2.72,31.243467,75.7503,6,703,1887,High
+Industrial Accident,Factory Blast,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2017,11,4.01,31.212107,75.784016,14,2156,3663,High
+Industrial Accident,Factory Blast,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2017,11,3.81,31.217635,75.78208,15,1600,3343,High
+Fire,Residential Fire,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2017,11,3.37,31.217711,75.777509,8,1450,1943,High
+Fire,Residential Fire,"College District, Phagwara, Punjab",College District,2017,12,3.63,31.233763,75.75686,2,1092,1624,High
+Storm,Thunderstorm,"City Centre, Phagwara, Punjab",City Centre,2018,1,4.52,31.225067,75.768595,0,2623,2751,High
+Heatwave,Humidity Surge,"LPU Campus, Phagwara, Punjab",LPU Campus,2018,2,45.76,31.265562,75.707092,8,6037,1119,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2018,4,45.7,31.259826,75.700225,7,4498,1137,High
+Storm,Windstorm,"College District, Phagwara, Punjab",College District,2018,5,4.45,31.235642,75.755454,3,2375,2609,High
+Fire,Residential Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,5,2.29,31.222929,75.76549,4,1012,2455,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,6,4.84,31.224533,75.762972,9,4070,2858,High
+Earthquake,Shallow Tremor,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2018,6,5.83,31.245763,75.743854,16,2648,3218,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,6,5.2,31.23823,75.771336,13,4676,2760,High
+Storm,Windstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2018,6,4.53,31.209055,75.787056,13,2826,2927,High
+Flood,Urban Flood,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2018,6,4.85,31.208335,75.788014,14,7503,3666,High
+Heatwave,Extreme Heat,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,6,45.18,31.231498,75.772398,4,5460,386,High
+Earthquake,Regional Shock,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,6,4.98,31.218303,75.764112,13,3293,4006,High
+Storm,Windstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2018,7,3.93,31.209074,75.777512,15,2565,2409,High
+Flood,Flash Flood,"City Centre, Phagwara, Punjab",City Centre,2018,7,5.08,31.222663,75.77606,11,6677,3419,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,7,4.78,31.22314,75.771523,5,2111,2428,High
+Fire,Market Fire,"LPU Campus, Phagwara, Punjab",LPU Campus,2018,7,3.06,31.259964,75.706696,1,1100,1243,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,9,5.07,31.223729,75.770128,11,5373,2775,High
+Flood,Urban Flood,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2018,10,4.94,31.215126,75.782214,12,5756,2301,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2018,10,5.74,31.238441,75.795155,10,3275,2437,High
+Industrial Accident,Factory Blast,"City Centre, Phagwara, Punjab",City Centre,2018,10,3.69,31.235462,75.772315,8,972,2250,High
+Flood,Canal Overflow,"Railway Colony, Phagwara, Punjab",Railway Colony,2018,10,4.94,31.223484,75.761011,16,5112,2631,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2018,10,5.5,31.218129,75.776501,14,2750,4028,High
+Industrial Accident,Factory Blast,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2018,10,2.49,31.255338,75.748765,8,1433,1870,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2018,10,5.21,31.228343,75.768746,14,2357,4388,High
+Earthquake,Shallow Tremor,"Canal Edge, Phagwara, Punjab",Canal Edge,2018,11,4.93,31.241836,75.797363,6,4000,4012,High
+Industrial Accident,Factory Blast,"LPU Campus, Phagwara, Punjab",LPU Campus,2018,12,3.44,31.264534,75.713807,4,150,2093,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2018,12,6.17,31.224572,75.776161,14,3399,4017,High
+Earthquake,Shallow Tremor,"LPU Campus, Phagwara, Punjab",LPU Campus,2018,12,5.16,31.255624,75.713641,25,2503,2887,High
+Industrial Accident,Factory Blast,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2018,12,3.49,31.215306,75.789174,16,1910,3050,High
+Heatwave,Humidity Surge,"Railway Colony, Phagwara, Punjab",Railway Colony,2019,1,45.48,31.235057,75.764584,4,5768,658,High
+Fire,Residential Fire,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2019,2,3.02,31.205899,75.788688,11,1765,1916,High
+Storm,Windstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2019,2,4.6,31.235528,75.790313,5,2924,2768,High
+Fire,Market Fire,"Canal Edge, Phagwara, Punjab",Canal Edge,2019,2,2.94,31.242059,75.789629,0,1107,2161,High
+Industrial Accident,Chemical Leak,"College District, Phagwara, Punjab",College District,2019,2,3.67,31.231324,75.765064,9,1488,2277,High
+Fire,Market Fire,"College District, Phagwara, Punjab",College District,2019,3,3.05,31.236746,75.759373,5,1400,1832,High
+Flood,Canal Overflow,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2019,4,5.52,31.211616,75.78037,2,7089,2178,High
+Heatwave,Humidity Surge,"LPU Campus, Phagwara, Punjab",LPU Campus,2019,5,44.09,31.256098,75.709534,2,7111,689,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2019,5,3.81,31.226823,75.776891,12,3287,2230,High
+Heatwave,Humidity Surge,"Railway Colony, Phagwara, Punjab",Railway Colony,2019,5,45.16,31.232545,75.764128,7,6082,1014,High
+Fire,Crop Fire,"LPU Campus, Phagwara, Punjab",LPU Campus,2019,5,2.81,31.255117,75.705783,0,1198,2580,High
+Heatwave,Extreme Heat,"Canal Edge, Phagwara, Punjab",Canal Edge,2019,5,43.97,31.242329,75.783824,10,6042,895,High
+Fire,Market Fire,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2019,6,3.64,31.206995,75.786603,8,1521,2125,High
+Flood,Canal Overflow,"College District, Phagwara, Punjab",College District,2019,7,4.39,31.237895,75.762382,6,3244,3039,High
+Fire,Residential Fire,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2019,7,3.41,31.247421,75.748457,5,1151,1192,High
+Flood,Flash Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2019,8,4.81,31.220075,75.771256,13,2819,2662,High
+Heatwave,Extreme Heat,"City Centre, Phagwara, Punjab",City Centre,2019,8,46.13,31.230219,75.769672,13,6120,1009,High
+Flood,Urban Flood,"Canal Edge, Phagwara, Punjab",Canal Edge,2019,9,4.4,31.243863,75.786661,14,6734,3497,High
+Heatwave,Humidity Surge,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2019,9,43.58,31.199139,75.788239,9,5831,758,High
+Storm,Thunderstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2019,9,4.08,31.219405,75.783958,11,2453,2282,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2019,10,2.88,31.241346,75.749507,5,409,3303,High
+Heatwave,Extreme Heat,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2019,10,42.0,31.21919,75.781556,5,5954,896,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2019,10,4.75,31.225042,75.766236,5,6232,3262,High
+Fire,Crop Fire,"LPU Campus, Phagwara, Punjab",LPU Campus,2019,12,3.14,31.265205,75.703919,3,547,1574,High
+Industrial Accident,Chemical Leak,"Railway Colony, Phagwara, Punjab",Railway Colony,2020,1,3.55,31.223447,75.77551,5,1086,2925,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2020,2,4.49,31.222621,75.76179,10,2166,2489,High
+Flood,Urban Flood,"City Centre, Phagwara, Punjab",City Centre,2020,2,5.16,31.221386,75.767527,13,6235,4166,High
+Fire,Crop Fire,"LPU Campus, Phagwara, Punjab",LPU Campus,2020,3,3.14,31.25027,75.706028,7,1415,1501,High
+Storm,Windstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2020,3,4.91,31.252332,75.74305,11,2468,2209,High
+Flood,Flash Flood,"College District, Phagwara, Punjab",College District,2020,4,4.35,31.229977,75.760052,13,5290,2710,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2020,5,4.14,31.222462,75.771596,13,1972,2080,High
+Fire,Residential Fire,"City Centre, Phagwara, Punjab",City Centre,2020,5,2.95,31.216824,75.766625,3,1270,1745,High
+Storm,Windstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2020,6,4.66,31.244039,75.795827,15,3689,2626,High
+Storm,Thunderstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2020,6,4.09,31.259414,75.704012,6,3019,2067,High
+Storm,Windstorm,"College District, Phagwara, Punjab",College District,2020,7,4.06,31.231538,75.762106,10,2647,2630,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2020,7,47.87,31.264716,75.701851,10,6607,704,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2020,9,5.16,31.246439,75.797296,12,3154,3603,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2020,10,5.32,31.241643,75.797728,9,1055,3117,High
+Fire,Market Fire,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2020,10,3.78,31.201648,75.776216,11,1903,2199,High
+Industrial Accident,Chemical Leak,"Railway Colony, Phagwara, Punjab",Railway Colony,2020,10,3.78,31.217066,75.767456,11,1125,2771,High
+Heatwave,Humidity Surge,"LPU Campus, Phagwara, Punjab",LPU Campus,2020,11,43.87,31.267095,75.709888,0,6484,897,High
+Flood,Flash Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2020,11,4.98,31.24957,75.748054,9,5628,2109,High
+Storm,Windstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2020,12,4.96,31.241714,75.755759,4,2395,3088,High
+Earthquake,Regional Shock,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2020,12,5.61,31.249199,75.749443,8,3308,4212,High
+Earthquake,Shallow Tremor,"LPU Campus, Phagwara, Punjab",LPU Campus,2021,1,5.01,31.256673,75.702015,12,3585,4269,High
+Flood,Urban Flood,"LPU Campus, Phagwara, Punjab",LPU Campus,2021,1,5.15,31.250581,75.712918,10,6033,2742,High
+Earthquake,Regional Shock,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2021,1,5.06,31.210711,75.781637,12,3175,3918,High
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2021,1,3.46,31.257114,75.706933,11,906,1383,High
+Earthquake,Shallow Tremor,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2021,1,5.27,31.245472,75.75022,18,1995,2890,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2021,2,5.37,31.228356,75.787112,18,2151,3458,High
+Heatwave,Extreme Heat,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2021,2,45.27,31.235749,75.750299,9,6343,678,High
+Heatwave,Extreme Heat,"Canal Edge, Phagwara, Punjab",Canal Edge,2021,2,45.48,31.242988,75.797622,1,4556,881,High
+Flood,Urban Flood,"City Centre, Phagwara, Punjab",City Centre,2021,3,5.48,31.221027,75.773875,6,3947,3906,High
+Earthquake,Shallow Tremor,"LPU Campus, Phagwara, Punjab",LPU Campus,2021,4,6.0,31.257047,75.709999,17,2192,2477,High
+Heatwave,Extreme Heat,"Railway Colony, Phagwara, Punjab",Railway Colony,2021,4,45.05,31.219263,75.777024,7,4757,870,High
+Fire,Residential Fire,"College District, Phagwara, Punjab",College District,2021,4,3.62,31.238262,75.758786,1,605,1025,High
+Industrial Accident,Chemical Leak,"Canal Edge, Phagwara, Punjab",Canal Edge,2021,5,3.4,31.236611,75.787421,7,807,2030,High
+Heatwave,Extreme Heat,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2021,5,44.9,31.210444,75.783273,4,5151,842,High
+Storm,Thunderstorm,"College District, Phagwara, Punjab",College District,2021,5,4.37,31.239128,75.761001,6,1961,1700,High
+Industrial Accident,Factory Blast,"Canal Edge, Phagwara, Punjab",Canal Edge,2021,5,3.88,31.238082,75.794836,7,1042,2536,High
+Flood,Canal Overflow,"Railway Colony, Phagwara, Punjab",Railway Colony,2021,5,4.52,31.219845,75.767861,8,6650,2912,High
+Flood,Flash Flood,"City Centre, Phagwara, Punjab",City Centre,2021,5,5.18,31.221423,75.774547,16,4589,2920,High
+Flood,Canal Overflow,"City Centre, Phagwara, Punjab",City Centre,2021,6,5.08,31.228064,75.772272,7,5891,4352,High
+Flood,Urban Flood,"LPU Campus, Phagwara, Punjab",LPU Campus,2021,8,4.61,31.253757,75.694472,9,2867,2717,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2021,8,4.12,31.216562,75.767822,10,3131,2591,High
+Heatwave,Humidity Surge,"Railway Colony, Phagwara, Punjab",Railway Colony,2021,9,44.86,31.233084,75.776167,1,5154,1261,High
+Fire,Crop Fire,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2021,10,2.47,31.255987,75.749055,7,1457,1538,High
+Industrial Accident,Chemical Leak,"City Centre, Phagwara, Punjab",City Centre,2021,10,3.77,31.220718,75.762664,10,1642,2990,High
+Industrial Accident,Factory Blast,"Canal Edge, Phagwara, Punjab",Canal Edge,2021,10,3.39,31.244564,75.797573,0,671,2614,High
+Industrial Accident,Factory Blast,"College District, Phagwara, Punjab",College District,2021,10,4.28,31.240073,75.754242,7,1475,2392,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2021,12,5.46,31.22709,75.764428,13,4221,3127,High
+Earthquake,Regional Shock,"Railway Colony, Phagwara, Punjab",Railway Colony,2021,12,5.52,31.236098,75.761748,5,3187,4081,High
+Industrial Accident,Factory Blast,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2021,12,3.19,31.246596,75.746265,4,1416,2199,High
+Earthquake,Regional Shock,"City Centre, Phagwara, Punjab",City Centre,2021,12,6.11,31.219894,75.774191,20,3735,3017,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,1,3.77,31.246999,75.78643,12,3520,3356,High
+Heatwave,Humidity Surge,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,1,44.06,31.235524,75.793911,5,5489,813,High
+Storm,Thunderstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2022,2,4.55,31.241361,75.748592,4,2929,1850,High
+Earthquake,Regional Shock,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2022,2,5.27,31.21664,75.7802,10,1624,4795,High
+Fire,Crop Fire,"City Centre, Phagwara, Punjab",City Centre,2022,2,1.95,31.226487,75.779125,6,1166,1621,High
+Industrial Accident,Factory Blast,"College District, Phagwara, Punjab",College District,2022,2,3.35,31.234724,75.754542,9,1865,2924,High
+Industrial Accident,Factory Blast,"Railway Colony, Phagwara, Punjab",Railway Colony,2022,3,3.64,31.231008,75.756087,11,1650,2736,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,3,5.4,31.23202,75.797241,6,3065,4338,High
+Earthquake,Regional Shock,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2022,3,5.31,31.237143,75.756691,13,2698,4101,High
+Heatwave,Humidity Surge,"College District, Phagwara, Punjab",College District,2022,4,45.74,31.236876,75.768013,7,4221,1021,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2022,4,4.8,31.23282,75.76458,12,3459,2413,High
+Flood,Urban Flood,"LPU Campus, Phagwara, Punjab",LPU Campus,2022,4,4.29,31.251553,75.70771,7,4626,2155,High
+Heatwave,Humidity Surge,"City Centre, Phagwara, Punjab",City Centre,2022,5,44.1,31.225491,75.772929,3,6315,689,High
+Heatwave,Extreme Heat,"City Centre, Phagwara, Punjab",City Centre,2022,5,44.38,31.232098,75.772025,5,6448,760,High
+Flood,Urban Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2022,6,5.11,31.248489,75.747119,7,5721,2345,High
+Storm,Thunderstorm,"College District, Phagwara, Punjab",College District,2022,6,4.38,31.233956,75.764171,6,1814,2227,High
+Flood,Flash Flood,"City Centre, Phagwara, Punjab",City Centre,2022,6,4.94,31.215151,75.771662,14,3780,2737,High
+Storm,Windstorm,"College District, Phagwara, Punjab",College District,2022,6,5.36,31.239151,75.759897,8,2549,2106,High
+Heatwave,Humidity Surge,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,7,44.71,31.245527,75.793727,4,6645,929,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2022,7,4.49,31.227773,75.768113,11,1907,1372,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2022,7,4.19,31.224304,75.771114,1,2696,2533,High
+Industrial Accident,Chemical Leak,"LPU Campus, Phagwara, Punjab",LPU Campus,2022,8,4.12,31.253688,75.705798,4,1332,2707,High
+Heatwave,Extreme Heat,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2022,8,45.19,31.21005,75.779876,5,5616,984,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,8,4.69,31.226887,75.78783,10,3808,2908,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2022,8,3.1,31.24227,75.745172,9,1861,2795,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2022,9,4.5,31.223822,75.764145,6,6732,2506,High
+Heatwave,Humidity Surge,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,9,44.32,31.234333,75.802772,12,5092,1094,High
+Earthquake,Regional Shock,"Railway Colony, Phagwara, Punjab",Railway Colony,2022,9,5.81,31.223392,75.763946,7,3468,2364,High
+Industrial Accident,Chemical Leak,"College District, Phagwara, Punjab",College District,2022,9,4.41,31.239475,75.763663,6,1238,2700,High
+Fire,Crop Fire,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2022,10,3.63,31.21095,75.782487,9,1161,2685,High
+Flood,Urban Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2022,10,5.11,31.244733,75.746601,6,4309,2606,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,10,5.39,31.230163,75.794047,3,2382,3118,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2022,11,6.02,31.234074,75.778733,17,2571,3480,High
+Industrial Accident,Factory Blast,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,11,4.01,31.238479,75.800946,7,1685,3075,High
+Flood,Canal Overflow,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2022,11,4.17,31.216398,75.790843,12,4771,3401,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2022,11,6.1,31.239916,75.795802,12,2323,3112,High
+Fire,Market Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2022,12,2.99,31.226447,75.775278,7,1521,2046,High
+Flood,Urban Flood,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2022,12,5.41,31.208942,75.784731,7,5344,3510,High
+Storm,Thunderstorm,"College District, Phagwara, Punjab",College District,2023,1,4.74,31.236197,75.77292,8,3926,2168,High
+Fire,Crop Fire,"Canal Edge, Phagwara, Punjab",Canal Edge,2023,1,3.73,31.232817,75.787576,2,1122,1871,High
+Flood,Flash Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2023,1,4.26,31.234224,75.771006,11,5238,2767,High
+Earthquake,Shallow Tremor,"LPU Campus, Phagwara, Punjab",LPU Campus,2023,1,5.05,31.256084,75.704966,6,2296,2664,High
+Earthquake,Shallow Tremor,"LPU Campus, Phagwara, Punjab",LPU Campus,2023,1,5.12,31.257308,75.7139,20,2512,4312,High
+Earthquake,Shallow Tremor,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2023,2,5.11,31.211952,75.790173,5,3877,2743,High
+Fire,Market Fire,"LPU Campus, Phagwara, Punjab",LPU Campus,2023,3,3.9,31.258484,75.695297,5,1537,1294,High
+Earthquake,Regional Shock,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2023,4,5.53,31.214159,75.790449,20,2576,2844,High
+Industrial Accident,Factory Blast,"City Centre, Phagwara, Punjab",City Centre,2023,4,3.35,31.219821,75.77316,7,1380,2701,High
+Industrial Accident,Factory Blast,"City Centre, Phagwara, Punjab",City Centre,2023,4,4.12,31.22186,75.768524,4,673,2696,High
+Flood,Urban Flood,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2023,4,5.21,31.209382,75.778173,15,5105,2573,High
+Flood,Flash Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2023,4,4.71,31.236341,75.740206,15,4545,3846,High
+Flood,Canal Overflow,"College District, Phagwara, Punjab",College District,2023,5,5.27,31.227153,75.771232,12,5357,1951,High
+Flood,Flash Flood,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2023,6,5.5,31.242024,75.74572,11,5258,3031,High
+Heatwave,Humidity Surge,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2023,6,44.9,31.203016,75.786722,9,5467,556,High
+Earthquake,Shallow Tremor,"Railway Colony, Phagwara, Punjab",Railway Colony,2023,6,5.53,31.226536,75.766085,10,3412,3134,High
+Fire,Crop Fire,"Canal Edge, Phagwara, Punjab",Canal Edge,2023,7,3.74,31.236456,75.794129,1,1123,1617,High
+Storm,Windstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2023,7,4.28,31.261999,75.705325,5,2175,1803,High
+Flood,Urban Flood,"Railway Colony, Phagwara, Punjab",Railway Colony,2023,8,5.06,31.229761,75.766835,7,6761,1577,High
+Storm,Thunderstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2023,8,5.12,31.225212,75.771551,10,2181,1609,High
+Industrial Accident,Chemical Leak,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2023,8,4.1,31.216089,75.783304,8,1801,3273,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2023,9,45.71,31.258494,75.703783,4,5560,837,High
+Storm,Thunderstorm,"College District, Phagwara, Punjab",College District,2023,10,4.33,31.236233,75.761051,4,2860,2101,High
+Earthquake,Shallow Tremor,"Railway Colony, Phagwara, Punjab",Railway Colony,2023,12,6.52,31.220511,75.766009,17,3306,2745,High
+Storm,Windstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2023,12,3.68,31.212195,75.782028,10,2074,2479,High
+Earthquake,Regional Shock,"Railway Colony, Phagwara, Punjab",Railway Colony,2023,12,5.79,31.230766,75.766647,14,3071,4264,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2024,1,4.39,31.223223,75.768903,5,2377,1619,High
+Heatwave,Humidity Surge,"College District, Phagwara, Punjab",College District,2024,1,44.35,31.222068,75.761923,2,4346,1223,High
+Industrial Accident,Chemical Leak,"Railway Colony, Phagwara, Punjab",Railway Colony,2024,1,3.76,31.223189,75.767055,7,1398,2674,High
+Storm,Thunderstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2024,1,4.28,31.24781,75.706966,7,2658,2389,High
+Earthquake,Shallow Tremor,"College District, Phagwara, Punjab",College District,2024,1,5.76,31.231502,75.764592,12,3959,2918,High
+Heatwave,Humidity Surge,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2024,2,43.11,31.216309,75.780832,7,5515,1002,High
+Earthquake,Regional Shock,"City Centre, Phagwara, Punjab",City Centre,2024,3,5.43,31.207859,75.769922,13,2257,4130,High
+Heatwave,Humidity Surge,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2024,4,44.82,31.199384,75.788615,7,5957,489,High
+Industrial Accident,Factory Blast,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2024,4,3.76,31.242134,75.742773,12,1685,2613,High
+Heatwave,Humidity Surge,"LPU Campus, Phagwara, Punjab",LPU Campus,2024,4,44.37,31.251433,75.707225,5,5167,868,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2024,4,4.86,31.237929,75.788975,15,2780,2177,High
+Flood,Canal Overflow,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2024,5,5.15,31.250296,75.749405,13,4755,1856,High
+Heatwave,Extreme Heat,"Railway Colony, Phagwara, Punjab",Railway Colony,2024,5,45.19,31.229331,75.769072,4,5035,935,High
+Fire,Residential Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2024,6,2.26,31.233495,75.758891,4,1038,1250,High
+Flood,Canal Overflow,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2024,6,5.11,31.210712,75.784978,10,5059,2739,High
+Heatwave,Humidity Surge,"College District, Phagwara, Punjab",College District,2024,6,45.41,31.245978,75.759235,8,6102,871,High
+Industrial Accident,Factory Blast,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2024,7,3.85,31.215545,75.776283,7,1591,3246,High
+Storm,Thunderstorm,"City Centre, Phagwara, Punjab",City Centre,2024,9,3.65,31.225387,75.771072,10,1639,2128,High
+Flood,Canal Overflow,"College District, Phagwara, Punjab",College District,2024,9,4.76,31.237051,75.760918,10,4073,2208,High
+Flood,Urban Flood,"College District, Phagwara, Punjab",College District,2024,10,4.66,31.226177,75.76039,14,5357,2743,High
+Flood,Canal Overflow,"Railway Colony, Phagwara, Punjab",Railway Colony,2024,10,4.64,31.227736,75.764381,14,2310,2296,High
+Storm,Thunderstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2024,10,3.88,31.239718,75.791248,13,3180,1853,High
+Fire,Crop Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2024,10,2.97,31.229063,75.761511,6,784,1609,High
+Storm,Thunderstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2024,10,3.87,31.262566,75.703473,6,2592,1987,High
+Storm,Windstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2024,11,4.29,31.207783,75.78015,14,3117,2176,High
+Flood,Canal Overflow,"Railway Colony, Phagwara, Punjab",Railway Colony,2024,11,5.16,31.21484,75.768002,11,5278,2803,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2024,12,3.15,31.245578,75.745253,10,1083,1584,High
+Earthquake,Shallow Tremor,"College District, Phagwara, Punjab",College District,2025,2,5.42,31.238579,75.759889,9,1895,2914,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2025,2,4.55,31.218313,75.763308,5,1761,2241,High
+Storm,Thunderstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2025,3,4.31,31.2402,75.753144,6,2111,1993,High
+Flood,Canal Overflow,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2025,3,4.3,31.20724,75.780332,10,5936,3045,High
+Heatwave,Humidity Surge,"Canal Edge, Phagwara, Punjab",Canal Edge,2025,4,44.57,31.236516,75.780009,9,6118,437,High
+Earthquake,Regional Shock,"College District, Phagwara, Punjab",College District,2025,5,5.84,31.241055,75.761776,15,2441,3340,High
+Heatwave,Extreme Heat,"LPU Campus, Phagwara, Punjab",LPU Campus,2025,7,45.21,31.258637,75.710161,11,6120,849,High
+Industrial Accident,Chemical Leak,"Railway Colony, Phagwara, Punjab",Railway Colony,2025,8,3.95,31.224864,75.762624,11,1511,1708,High
+Storm,Thunderstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2025,8,4.11,31.247877,75.742187,9,3400,1772,High
+Storm,Thunderstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2025,10,5.04,31.248013,75.74994,5,3881,2016,High
+Industrial Accident,Chemical Leak,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2025,10,3.8,31.207802,75.778271,17,2519,3370,High
+Earthquake,Regional Shock,"City Centre, Phagwara, Punjab",City Centre,2025,10,5.14,31.224668,75.781899,19,2196,4260,High
+Earthquake,Regional Shock,"LPU Campus, Phagwara, Punjab",LPU Campus,2025,10,5.73,31.247751,75.706476,24,2697,2473,High
+Storm,Windstorm,"Railway Colony, Phagwara, Punjab",Railway Colony,2025,10,4.44,31.228619,75.760528,10,3270,2327,High
+Earthquake,Regional Shock,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2025,10,5.68,31.204904,75.782695,2,2368,3692,High
+Earthquake,Regional Shock,"Canal Edge, Phagwara, Punjab",Canal Edge,2025,10,5.75,31.233293,75.79869,11,3397,2778,High
+Fire,Residential Fire,"College District, Phagwara, Punjab",College District,2025,11,2.73,31.231549,75.762834,0,922,1224,High
+Storm,Thunderstorm,"College District, Phagwara, Punjab",College District,2025,11,4.46,31.231528,75.755745,7,2380,2234,High
+Storm,Windstorm,"City Centre, Phagwara, Punjab",City Centre,2025,12,3.71,31.228049,75.770958,8,2909,2279,High
+Earthquake,Shallow Tremor,"LPU Campus, Phagwara, Punjab",LPU Campus,2025,12,5.41,31.249416,75.704466,11,2838,3053,High
+Heatwave,Humidity Surge,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2026,1,43.79,31.247746,75.753081,7,4940,791,High
+Fire,Residential Fire,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2026,2,2.59,31.243176,75.755237,4,802,1956,High
+Earthquake,Regional Shock,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2026,2,5.48,31.20891,75.784062,17,1770,3264,High
+Fire,Market Fire,"Canal Edge, Phagwara, Punjab",Canal Edge,2026,2,3.12,31.235635,75.792202,3,782,2170,High
+Storm,Thunderstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2026,3,4.94,31.220467,75.785649,4,1986,2539,High
+Heatwave,Humidity Surge,"Railway Colony, Phagwara, Punjab",Railway Colony,2026,4,44.08,31.216254,75.756615,7,5550,712,High
+Fire,Crop Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2026,4,3.67,31.227064,75.762521,2,1477,2260,High
+Heatwave,Humidity Surge,"College District, Phagwara, Punjab",College District,2026,5,44.46,31.228188,75.759216,6,6757,1206,High
+Storm,Thunderstorm,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2026,5,4.71,31.213442,75.781888,10,2515,2814,High
+Heatwave,Humidity Surge,"College District, Phagwara, Punjab",College District,2026,7,42.44,31.228319,75.758741,5,5313,1045,High
+Storm,Thunderstorm,"LPU Campus, Phagwara, Punjab",LPU Campus,2026,7,4.01,31.253481,75.706361,6,1917,2357,High
+Flood,Canal Overflow,"College District, Phagwara, Punjab",College District,2026,7,4.68,31.234546,75.750498,6,3894,4298,High
+Flood,Canal Overflow,"Canal Edge, Phagwara, Punjab",Canal Edge,2026,8,4.99,31.236651,75.795306,15,5770,2804,High
+Fire,Residential Fire,"College District, Phagwara, Punjab",College District,2026,8,3.24,31.246229,75.762205,7,1124,1635,High
+Flood,Canal Overflow,"City Centre, Phagwara, Punjab",City Centre,2026,9,4.94,31.216661,75.773176,9,5898,2261,High
+Storm,Thunderstorm,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2026,9,3.78,31.237768,75.749985,11,2860,2957,High
+Storm,Windstorm,"Canal Edge, Phagwara, Punjab",Canal Edge,2026,9,4.98,31.236284,75.790254,11,3965,2971,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2026,10,5.92,31.216785,75.759463,11,2051,3967,High
+Industrial Accident,Chemical Leak,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2026,10,3.6,31.247115,75.757494,12,942,2625,High
+Earthquake,Regional Shock,"Industrial Belt, Phagwara, Punjab",Industrial Belt,2026,10,5.56,31.205308,75.783893,17,1820,1607,High
+Storm,Windstorm,"College District, Phagwara, Punjab",College District,2026,10,3.92,31.239292,75.761917,9,2799,1299,High
+Earthquake,Shallow Tremor,"Peri-Urban Farms, Phagwara, Punjab",Peri-Urban Farms,2026,10,5.33,31.248122,75.749533,13,2711,3374,High
+Earthquake,Shallow Tremor,"City Centre, Phagwara, Punjab",City Centre,2026,10,5.21,31.215024,75.774878,21,1270,4692,High
+Industrial Accident,Factory Blast,"LPU Campus, Phagwara, Punjab",LPU Campus,2026,12,3.08,31.26223,75.711398,7,1203,2622,High
+Fire,Residential Fire,"Railway Colony, Phagwara, Punjab",Railway Colony,2026,12,2.65,31.226851,75.767057,5,1457,1802,High
+Earthquake,Regional Shock,"LPU Campus, Phagwara, Punjab",LPU Campus,2026,12,5.08,31.251479,75.712004,25,3971,4918,High

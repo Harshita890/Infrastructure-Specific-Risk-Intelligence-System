@@ -1,0 +1,26 @@
+place_name,category,latitude,longitude
+Phagwara,City,31.224,75.7708
+City Centre,Zone,31.2238,75.772
+Railway Colony,Zone,31.2269,75.7666
+Industrial Belt,Zone,31.2103,75.7835
+Canal Edge,Zone,31.2365,75.7924
+College District,Zone,31.2339,75.7608
+Peri-Urban Farms,Zone,31.2428,75.7484
+LPU Campus,Zone,31.2554,75.7052
+Phagwara Bus Stand,Transport,31.2247,75.771
+Civil Hospital,Healthcare,31.2258,75.7681
+Railway Station Access,Transport,31.2266,75.7668
+Industrial Gate 2,Industry,31.2108,75.783
+Canal Bridge,Water Crossing,31.2362,75.7915
+Market Road Junction,Commercial,31.2231,75.7747
+School Cluster,Education,31.2328,75.7619
+Warehouse Ring,Logistics,31.214,75.7808
+LPU Main Auditorium,Education,31.2558,75.7042
+LPU Uni Mall,Commercial,31.2565,75.7081
+LPU Block 32,Academic,31.2548,75.7062
+LPU Block 34,Academic,31.2541,75.7076
+LPU School of Civil Engineering,Academic,31.2532,75.7056
+LPU Boys Hostel BH-1,Residential,31.2584,75.7014
+LPU Girls Hostel GH-1,Residential,31.2575,75.7094
+LPU Sports Arena,Recreation,31.2526,75.7028
+LPU University Hospital,Healthcare,31.2569,75.703

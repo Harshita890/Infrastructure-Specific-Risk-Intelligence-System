@@ -1,0 +1,8 @@
+zone_name,recent_incidents,dominant_hazard,average_magnitude,average_damage,latitude,longitude,flood_probability,infrastructure_risk_score,alert_score,alert_level,response_priority
+College District,14,Heatwave,15.87,2082.71,31.23,75.76,0.48,42.55,93.9,Critical,Immediate field coordination
+Industrial Belt,12,Earthquake,11.3,2498.58,31.21,75.78,0.59,48.84,92.61,Critical,Immediate field coordination
+Railway Colony,12,Fire,10.6,1832.92,31.23,75.77,0.48,46.23,87.93,Critical,Immediate field coordination
+Peri-Urban Farms,11,Storm,7.69,2139.73,31.24,75.75,0.48,39.55,80.25,Critical,Immediate field coordination
+Canal Edge,7,Storm,10.31,2170.0,31.24,75.79,0.83,46.82,78.75,Critical,Immediate field coordination
+City Centre,8,Earthquake,4.82,3244.75,31.22,75.77,0.61,50.59,78.08,Critical,Immediate field coordination
+LPU Campus,9,Earthquake,13.45,2390.67,31.26,75.71,0.39,40.39,69.96,Medium,Preparedness drill and inspection
