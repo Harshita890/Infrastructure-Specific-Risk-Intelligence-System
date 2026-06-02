@@ -5,7 +5,7 @@ A Flask-based disaster risk intelligence website for Phagwara, Punjab. The proje
 
 The system is designed for academic demonstration, reports, and viva explanation when real operational disaster datasets are unavailable or unsuitable
 
-## Key Features:
+## Key Features
 
 - Phagwara-focused synthetic datasets for flood risk, disaster history, weather, infrastructure assets, and building safety.
 - Machine-learning models for flood risk prediction, disaster type classification, and building safety assessment.
@@ -15,7 +15,7 @@ The system is designed for academic demonstration, reports, and viva explanation
 - Infrastructure map showing assets, nearby flood samples, hotspots, emergency contacts, and local recommendations.
 - Downloadable risk report generated from predictor inputs.
 
-## Project Structure:
+## Project Structure
 
 ```text
 .
